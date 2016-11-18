@@ -81,7 +81,7 @@ int Handle0(int a, int b, int c){
     LCD_PrintString("    ");
     
     LCD_Position(1u, 0u);
-    LCD_PrintNumber((val+2)/255.0*1.020);
+    LCD_PrintNumber(val * 1000 / 255 * 102 / 100);
     return 0;
 }
 int Handle1(int a, int b, int c){
@@ -96,7 +96,7 @@ int Handle1(int a, int b, int c){
     LCD_PrintString("    ");
     
     LCD_Position(1u, 4u);
-
+    LCD_PrintNumber(val * 1000 / 255 * 102 / 100);
     return 0;
 }
 int Handle2(int a, int b, int c){
@@ -111,7 +111,7 @@ int Handle2(int a, int b, int c){
     LCD_PrintString("    ");
     
     LCD_Position(1u, 8u);
-    LCD_PrintNumber((val+2)/255.0*1.020);
+    LCD_PrintNumber(val * 1000 / 255 * 102 / 100);
     return 0;
 }
 int Handle3(int a, int b, int c){
@@ -126,7 +126,7 @@ int Handle3(int a, int b, int c){
     
     VDAC8_4_SetValue(val);
     LCD_Position(1u, 12u);
-    LCD_PrintNumber((val+2)/255.0*1.020);
+    LCD_PrintNumber(val * 1000 / 255 * 102 / 100);
     return 0;
 }
 
