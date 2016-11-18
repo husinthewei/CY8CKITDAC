@@ -65,6 +65,88 @@ char8* stop[]   = {"1", "1.5", "2"};
 *  None.
 *
 *******************************************************************************/
+//Do not know enough about C to make this more elegant
+//Each changes value of DAC
+//V = ((val+2)/255)*1.020
+int Handle0(int a, int b, int c){
+    
+    int v1 = a - 48;
+    int v2 = b - 48;
+    int v3 = c - 48;
+    uint8 val = v1 * 100 + v2 * 10 + v3;
+    VDAC8_1_SetValue(val);
+    
+    /* Clear LCD line.*/ 
+    LCD_Position(1u, 0u);
+    LCD_PrintString("    ");
+    
+    LCD_Position(1u, 0u);
+    LCD_PrintNumber((val+2)/255.0*1.020);
+    return 0;
+}
+int Handle1(int a, int b, int c){
+    int v1 = a - 48;
+    int v2 = b - 48;
+    int v3 = c - 48;
+    uint8 val = v1 * 100 + v2 * 10 + v3;
+    VDAC8_2_SetValue(val);
+    
+    /* Clear LCD line.*/ 
+    LCD_Position(1u, 4u);
+    LCD_PrintString("    ");
+    
+    LCD_Position(1u, 4u);
+
+    return 0;
+}
+int Handle2(int a, int b, int c){
+    int v1 = a - 48;
+    int v2 = b - 48;
+    int v3 = c - 48;
+    uint8 val = v1 * 100 + v2 * 10 + v3;
+    VDAC8_3_SetValue(val);
+    
+    /* Clear LCD line.*/ 
+    LCD_Position(1u, 8u);
+    LCD_PrintString("    ");
+    
+    LCD_Position(1u, 8u);
+    LCD_PrintNumber((val+2)/255.0*1.020);
+    return 0;
+}
+int Handle3(int a, int b, int c){
+    int v1 = a - 48;
+    int v2 = b - 48;
+    int v3 = c - 48;
+    uint8 val = v1 * 100 + v2 * 10 + v3;
+    
+    /* Clear LCD line.*/ 
+    LCD_Position(1u, 12u);
+    LCD_PrintString("    ");
+    
+    VDAC8_4_SetValue(val);
+    LCD_Position(1u, 12u);
+    LCD_PrintNumber((val+2)/255.0*1.020);
+    return 0;
+}
+
+//Ex: 2550 is abcd and means 255 to DAC (d+1)
+int ProcessMessage(int a, int b, int c, int d){
+    //Using ASCII values
+    int v = d - 48;
+    if(v == 0)
+        Handle0(a,b,c);
+    if(v == 1)
+        Handle1(a,b,c);
+    if(v == 2)
+        Handle2(a,b,c);
+    if(v == 3)
+        Handle3(a, b, c);
+    return 0;
+}
+
+
+
 int main()
 {
     uint16 count;
@@ -84,10 +166,18 @@ int main()
     VDAC8_4_Start();
     /* Set the value 200 in VDAC data register */
     VDAC8_1_SetValue(0u);
-    VDAC8_2_SetValue(50u);
-    VDAC8_3_SetValue(100u);
-    VDAC8_4_SetValue(200u);
-
+    VDAC8_2_SetValue(0u);
+    VDAC8_3_SetValue(0u);
+    VDAC8_4_SetValue(0u);
+    /* Initialize LCD values*/
+    LCD_Position(1u, 0u);
+    LCD_PrintNumber(0);
+    LCD_Position(1u, 4u);
+    LCD_PrintNumber(0);
+    LCD_Position(1u, 8u);
+    LCD_PrintNumber(0);
+    LCD_Position(1u, 12u);
+    LCD_PrintNumber(0);
     CyGlobalIntEnable;
 
     /* Start USBFS operation with 5-V operation. */
@@ -127,16 +217,8 @@ int main()
                     USBUART_PutData(buffer, count);
                     
                     //(val+2/255)*1.020 = V 
-                    
-                    /* Clear LCD line.*/ 
-                    LCD_Position(1u, 0u);
-                    LCD_PrintString("                    ");
 
-                    /* Output string on LCD. */
-                    LCD_Position(1u, 0u);
-                    LCD_PrintNumber(buffer[0]);
-                    LCD_Position(1u, 5u);
-                    LCD_PrintNumber(buffer[1]);
+                    ProcessMessage(buffer[0], buffer[1], buffer[2], buffer[3]);
                     /* If the last sent packet is exactly the maximum packet 
                     *  size, it is followed by a zero-length packet to assure
                     *  that the end of the segment is properly identified by 
@@ -200,6 +282,4 @@ int main()
         }
     }
 }
-
-
 /* [] END OF FILE */

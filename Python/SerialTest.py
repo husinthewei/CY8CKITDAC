@@ -2,4 +2,4 @@ import SerialHandler
 
 SH = SerialHandler.SerialHandler() 
 
-SH.writeLine("Hi");
+SH.writeLine("2220");
