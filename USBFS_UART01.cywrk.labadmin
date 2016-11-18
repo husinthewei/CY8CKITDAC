@@ -153,10 +153,6 @@
 <v>USBFS_UART01\USBFS_UART01\Generated_Source\PSoC5\cy_boot\cmsis_armcc.h</v>
 <v>USBFS_UART01\USBFS_UART01\Generated_Source\PSoC5\cy_boot\cmsis_gcc.h</v>
 <v>USBFS_UART01\USBFS_UART01\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
-<v>USBFS_UART01\USBFS_UART01\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
-<v>USBFS_UART01\USBFS_UART01\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
-<v>USBFS_UART01\USBFS_UART01\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
-<v>USBFS_UART01\USBFS_UART01\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -264,10 +260,6 @@
 <v>USBFS_UART01\USBFS_UART01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_boot.lst</v>
 <v>USBFS_UART01\USBFS_UART01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_cdc.lst</v>
 <v>USBFS_UART01\USBFS_UART01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_cls.lst</v>
-<v>USBFS_UART01\USBFS_UART01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_descr.lst</v>
-<v>USBFS_UART01\USBFS_UART01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_Dm.lst</v>
-<v>USBFS_UART01\USBFS_UART01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_Dp.lst</v>
-<v>USBFS_UART01\USBFS_UART01\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_drv.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
