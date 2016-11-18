@@ -191,12 +191,16 @@
   </Group>
   <Group key="DWRInstGuidMapping">
     <Group key="Pin">
+      <Data key="2cef2f88-7259-4883-ba46-1599c7ea919d" value="VDAC_Out_P0_0" />
+      <Data key="39a8a659-ec51-45c2-8124-006913b9a0f0" value="VDAC_Out_P0_3" />
+      <Data key="45b763dd-fe4a-46ab-8ae9-2b16f1df6e89" value="VDAC_Out_P0_2" />
       <Data key="48e09283-6e22-4c96-a30a-1443caf0447f" value="SW2" />
       <Data key="5484040d-da45-4556-9268-487cc7d82d55" value="TEST" />
       <Data key="ac8fb70c-7191-4547-91f8-16d96c1410fe/ed092b9b-d398-4703-be89-cebf998501f6" value="LCD_LCDPort" />
       <Data key="c39ef993-d787-4c0c-8ad6-c0c81f866442/8b77a6c4-10a0-4390-971c-672353e2a49c" value="USBUART_Dm" />
       <Data key="c39ef993-d787-4c0c-8ad6-c0c81f866442/605a40d2-572d-4c7a-818e-3bfd37f14d87" value="USBUART_VBUS" />
       <Data key="c39ef993-d787-4c0c-8ad6-c0c81f866442/618a72fc-5ddd-4df5-958f-a3d55102db42" value="USBUART_Dp" />
+      <Data key="c110c831-1682-43f3-aa6a-224937fffd99" value="VDAC_Out_P0_1" />
       <Data key="ed49cdf9-38df-4d0d-bf88-cc8fc60fbfde" value="SW1" />
     </Group>
   </Group>
@@ -748,6 +752,21 @@
         <Data key="Port Format" value="6,6" />
       </Group>
     </Group>
+    <Group key="2cef2f88-7259-4883-ba46-1599c7ea919d">
+      <Group key="0">
+        <Data key="Port Format" value="0,0" />
+      </Group>
+    </Group>
+    <Group key="39a8a659-ec51-45c2-8124-006913b9a0f0">
+      <Group key="0">
+        <Data key="Port Format" value="0,3" />
+      </Group>
+    </Group>
+    <Group key="45b763dd-fe4a-46ab-8ae9-2b16f1df6e89">
+      <Group key="0">
+        <Data key="Port Format" value="0,2" />
+      </Group>
+    </Group>
     <Group key="48e09283-6e22-4c96-a30a-1443caf0447f">
       <Group key="0">
         <Data key="Port Format" value="0,3" />
@@ -837,6 +856,11 @@
     <Group key="c39ef993-d787-4c0c-8ad6-c0c81f866442/427d7144-a1e8-4bca-a79f-71f65bb81965">
       <Group key="0">
         <Data key="Port Format" value="15,6" />
+      </Group>
+    </Group>
+    <Group key="c110c831-1682-43f3-aa6a-224937fffd99">
+      <Group key="0">
+        <Data key="Port Format" value="0,1" />
       </Group>
     </Group>
     <Group key="d938166a-c041-4af5-afaf-ef82f4b4af02/bcf50901-38ae-461b-a57c-bc3cfeb9b89c">

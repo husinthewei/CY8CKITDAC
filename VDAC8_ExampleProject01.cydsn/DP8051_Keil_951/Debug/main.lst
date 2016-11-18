@@ -1,0 +1,129 @@
+C51 COMPILER V9.51   MAIN                                                                  11/18/2016 15:58:26 PAGE 1   
+
+
+C51 COMPILER V9.51, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\DP8051_Keil_951\Debug\main.obj
+COMPILER INVOKED BY: C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\import\keil\pk51\9.51\C51\BIN\c51.exe 
+                    -main.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP INCDIR(.,Generated_Source\PSoC3) FF(3) DB WL(2) PR(.\DP8051_Keil_951\Debug/main
+                    -.lst) CD OT(0,SPEED) OJ(.\DP8051_Keil_951\Debug\main.obj)
+
+line level    source
+
+   1          /*******************************************************************************
+   2          * File: main.c
+   3          *
+   4          * Version : 1.2
+   5          *
+   6          * Description: 
+   7          *  This is a source code for basic functionality of VDAC8.
+   8          *  Main function performs following functions:
+   9          *  1. Initializes the LCD and clears the display
+  10          *  2. Start the VDAC8 component
+  11          *  3. Set the value through API
+  12          *  4. Print test name and VDAC Range on the LCD
+  13          *
+  14          ********************************************************************************
+  15          * Copyright 2012, Cypress Semiconductor Corporation. All rights reserved.
+  16          * This software is owned by Cypress Semiconductor Corporation and is protected
+  17          * by and subject to worldwide patent and copyright laws and treaties.
+  18          * Therefore, you may use this software only as provided in the license agreement
+  19          * accompanying the software package from which you obtained this software.
+  20          * CYPRESS AND ITS SUPPLIERS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+  21          * WITH REGARD TO THIS SOFTWARE, INCLUDING, BUT NOT LIMITED TO, NONINFRINGEMENT,
+  22          * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+  23          *******************************************************************************/
+  24          
+  25          #include <project.h>
+  26          
+  27          int main()
+  28          {
+  29   1          /* Start the LCD component */
+  30   1          LCD_Char_1_Start();
+  31   1      
+  32   1          /* Clear LCD Display */
+  33   1          LCD_Char_1_ClearDisplay();
+  34   1      
+  35   1          /* Start VDAC */
+  36   1          VDAC8_1_Start();
+  37   1      
+  38   1          /* Set the value 200 in VDAC data register */
+  39   1          VDAC8_1_SetValue(200u);
+  40   1          
+  41   1          LCD_Char_1_Position(0u, 0u);
+  42   1          LCD_Char_1_PrintString("   VDAC DEMO");
+  43   1      
+  44   1          LCD_Char_1_Position(1u, 0u);
+  45   1          LCD_Char_1_PrintString("Range : 0-1.020V");
+  46   1      
+  47   1          for(;;)
+  48   1          {
+  49   2          }
+  50   1      }
+  51          
+  52          
+  53          /* [] END OF FILE */
+C51 COMPILER V9.51   MAIN                                                                  11/18/2016 15:58:26 PAGE 2   
+
+ASSEMBLY LISTING OF GENERATED OBJECT CODE
+
+
+             ; FUNCTION main (BEGIN)
+                                           ; SOURCE LINE # 27
+                                           ; SOURCE LINE # 28
+                                           ; SOURCE LINE # 30
+0000 120000      E     LCALL   LCD_Char_1_Start
+                                           ; SOURCE LINE # 33
+0003 7F01              MOV     R7,#01H
+0005 120000      E     LCALL   _LCD_Char_1_WriteControl
+                                           ; SOURCE LINE # 36
+0008 120000      E     LCALL   VDAC8_1_Start
+                                           ; SOURCE LINE # 39
+000B 7FC8              MOV     R7,#0C8H
+000D 120000      E     LCALL   _VDAC8_1_SetValue
+                                           ; SOURCE LINE # 41
+0010 7D00              MOV     R5,#00H
+0012 7F00              MOV     R7,#00H
+0014 120000      E     LCALL   _LCD_Char_1_Position
+                                           ; SOURCE LINE # 42
+0017 7BFF              MOV     R3,#0FFH
+0019 7A00        R     MOV     R2,#HIGH ?SC_0
+001B 7900        R     MOV     R1,#LOW ?SC_0
+001D 120000      E     LCALL   _LCD_Char_1_PrintString
+                                           ; SOURCE LINE # 44
+0020 7D00              MOV     R5,#00H
+0022 7F01              MOV     R7,#01H
+0024 120000      E     LCALL   _LCD_Char_1_Position
+                                           ; SOURCE LINE # 45
+0027 7BFF              MOV     R3,#0FFH
+0029 7A00        R     MOV     R2,#HIGH ?SC_13
+002B 7900        R     MOV     R1,#LOW ?SC_13
+002D 120000      E     LCALL   _LCD_Char_1_PrintString
+                                           ; SOURCE LINE # 47
+0030         ?C0001:
+                                           ; SOURCE LINE # 48
+                                           ; SOURCE LINE # 49
+0030 80FE              SJMP    ?C0001
+0032         ?C0002:
+                                           ; SOURCE LINE # 50
+0032         ?C0003:
+0032 22                RET     
+             ; FUNCTION main (END)
+
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     51    ----
+   CONSTANT SIZE    =     30    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

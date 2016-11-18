@@ -1,15 +1,12 @@
-Loading plugins phase: Elapsed time ==> 0s.552ms
+Loading plugins phase: Elapsed time ==> 0s.556ms
 <CYPRESSTAG name="CyDsfit arguments...">
-cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\labadmin\Documents\PSoC Creator\USBFS_UART01\USBFS_UART01.cydsn\USBFS_UART01.cyprj -d CY8C5868AXI-LP035 -s C:\Users\labadmin\Documents\PSoC Creator\USBFS_UART01\USBFS_UART01.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE</CYPRESSTAG>
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\labadmin\Documents\GitHub\CY8CKITDAC\USBFS_UART01.cydsn\USBFS_UART01.cyprj -d CY8C5868AXI-LP035 -s C:\Users\labadmin\Documents\GitHub\CY8CKITDAC\USBFS_UART01.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE</CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
-ADD: pft.M0074: information: A (re)build is required to use the analog device editor. Unable to load the necessary information from the cyfit file. Partial/wrong data will be displayed until this has been resolved.
- * C:\Users\labadmin\Documents\PSoC Creator\USBFS_UART01\USBFS_UART01.cydsn\USBFS_UART01.cydwr ()
-
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 2s.036ms
+Elaboration phase: Elapsed time ==> 2s.136ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
-HDL generation phase: Elapsed time ==> 0s.114ms
+HDL generation phase: Elapsed time ==> 0s.111ms
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -27,23 +24,23 @@ HDL generation phase: Elapsed time ==> 0s.114ms
 ======================================================================
 Compiling:  USBFS_UART01.v
 Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\bin\warp.exe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\labadmin\Documents\PSoC Creator\USBFS_UART01\USBFS_UART01.cydsn\USBFS_UART01.cyprj -dcpsoc3 USBFS_UART01.v -verilog
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\labadmin\Documents\GitHub\CY8CKITDAC\USBFS_UART01.cydsn\USBFS_UART01.cyprj -dcpsoc3 USBFS_UART01.v -verilog
 ======================================================================
 
 ======================================================================
 Compiling:  USBFS_UART01.v
 Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\bin\warp.exe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\labadmin\Documents\PSoC Creator\USBFS_UART01\USBFS_UART01.cydsn\USBFS_UART01.cyprj -dcpsoc3 USBFS_UART01.v -verilog
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\labadmin\Documents\GitHub\CY8CKITDAC\USBFS_UART01.cydsn\USBFS_UART01.cyprj -dcpsoc3 USBFS_UART01.v -verilog
 ======================================================================
 
 ======================================================================
 Compiling:  USBFS_UART01.v
 Program  :   vlogfe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\labadmin\Documents\PSoC Creator\USBFS_UART01\USBFS_UART01.cydsn\USBFS_UART01.cyprj -dcpsoc3 -verilog USBFS_UART01.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\labadmin\Documents\GitHub\CY8CKITDAC\USBFS_UART01.cydsn\USBFS_UART01.cyprj -dcpsoc3 -verilog USBFS_UART01.v
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Fri Nov 18 14:52:02 2016
+Fri Nov 18 16:14:43 2016
 
 
 ======================================================================
@@ -53,7 +50,7 @@ Options  :    -yv2 -q10 USBFS_UART01.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Fri Nov 18 14:52:02 2016
+Fri Nov 18 16:14:43 2016
 
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'
@@ -80,11 +77,11 @@ vlogfe:  No errors.
 ======================================================================
 Compiling:  USBFS_UART01.v
 Program  :   tovif
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\labadmin\Documents\PSoC Creator\USBFS_UART01\USBFS_UART01.cydsn\USBFS_UART01.cyprj -dcpsoc3 -verilog USBFS_UART01.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\labadmin\Documents\GitHub\CY8CKITDAC\USBFS_UART01.cydsn\USBFS_UART01.cyprj -dcpsoc3 -verilog USBFS_UART01.v
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Fri Nov 18 14:52:03 2016
+Fri Nov 18 16:14:43 2016
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -95,9 +92,9 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
-Linking 'C:\Users\labadmin\Documents\PSoC Creator\USBFS_UART01\USBFS_UART01.cydsn\codegentemp\USBFS_UART01.ctl'.
+Linking 'C:\Users\labadmin\Documents\GitHub\CY8CKITDAC\USBFS_UART01.cydsn\codegentemp\USBFS_UART01.ctl'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
-Linking 'C:\Users\labadmin\Documents\PSoC Creator\USBFS_UART01\USBFS_UART01.cydsn\codegentemp\USBFS_UART01.v'.
+Linking 'C:\Users\labadmin\Documents\GitHub\CY8CKITDAC\USBFS_UART01.cydsn\codegentemp\USBFS_UART01.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
 
 tovif:  No errors.
@@ -106,11 +103,11 @@ tovif:  No errors.
 ======================================================================
 Compiling:  USBFS_UART01.v
 Program  :   topld
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\labadmin\Documents\PSoC Creator\USBFS_UART01\USBFS_UART01.cydsn\USBFS_UART01.cyprj -dcpsoc3 -verilog USBFS_UART01.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\labadmin\Documents\GitHub\CY8CKITDAC\USBFS_UART01.cydsn\USBFS_UART01.cyprj -dcpsoc3 -verilog USBFS_UART01.v
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Fri Nov 18 14:52:03 2016
+Fri Nov 18 16:14:44 2016
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -121,9 +118,9 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
-Linking 'C:\Users\labadmin\Documents\PSoC Creator\USBFS_UART01\USBFS_UART01.cydsn\codegentemp\USBFS_UART01.ctl'.
+Linking 'C:\Users\labadmin\Documents\GitHub\CY8CKITDAC\USBFS_UART01.cydsn\codegentemp\USBFS_UART01.ctl'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
-Linking 'C:\Users\labadmin\Documents\PSoC Creator\USBFS_UART01\USBFS_UART01.cydsn\codegentemp\USBFS_UART01.v'.
+Linking 'C:\Users\labadmin\Documents\GitHub\CY8CKITDAC\USBFS_UART01.cydsn\codegentemp\USBFS_UART01.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
 
@@ -164,6 +161,22 @@ Aliasing \LCD:tmpOE__LCDPort_net_3\ to \USBUART:tmpOE__Dm_net_0\
 Aliasing \LCD:tmpOE__LCDPort_net_2\ to \USBUART:tmpOE__Dm_net_0\
 Aliasing \LCD:tmpOE__LCDPort_net_1\ to \USBUART:tmpOE__Dm_net_0\
 Aliasing \LCD:tmpOE__LCDPort_net_0\ to \USBUART:tmpOE__Dm_net_0\
+Aliasing tmpOE__VDAC_Out_P0_0_net_0 to \USBUART:tmpOE__Dm_net_0\
+Aliasing \VDAC8_1:Net_83\ to zero
+Aliasing \VDAC8_1:Net_81\ to zero
+Aliasing \VDAC8_1:Net_82\ to zero
+Aliasing tmpOE__VDAC_Out_P0_1_net_0 to \USBUART:tmpOE__Dm_net_0\
+Aliasing \VDAC8_2:Net_83\ to zero
+Aliasing \VDAC8_2:Net_81\ to zero
+Aliasing \VDAC8_2:Net_82\ to zero
+Aliasing tmpOE__VDAC_Out_P0_2_net_0 to \USBUART:tmpOE__Dm_net_0\
+Aliasing \VDAC8_3:Net_83\ to zero
+Aliasing \VDAC8_3:Net_81\ to zero
+Aliasing \VDAC8_3:Net_82\ to zero
+Aliasing tmpOE__VDAC_Out_P0_3_net_0 to \USBUART:tmpOE__Dm_net_0\
+Aliasing \VDAC8_4:Net_83\ to zero
+Aliasing \VDAC8_4:Net_81\ to zero
+Aliasing \VDAC8_4:Net_82\ to zero
 Removing Rhs of wire one[9] = \USBUART:tmpOE__Dm_net_0\[3]
 Removing Lhs of wire \USBUART:tmpOE__Dp_net_0\[12] = one[9]
 Removing Lhs of wire \LCD:tmpOE__LCDPort_net_6\[65] = one[9]
@@ -173,9 +186,25 @@ Removing Lhs of wire \LCD:tmpOE__LCDPort_net_3\[68] = one[9]
 Removing Lhs of wire \LCD:tmpOE__LCDPort_net_2\[69] = one[9]
 Removing Lhs of wire \LCD:tmpOE__LCDPort_net_1\[70] = one[9]
 Removing Lhs of wire \LCD:tmpOE__LCDPort_net_0\[71] = one[9]
+Removing Lhs of wire tmpOE__VDAC_Out_P0_0_net_0[89] = one[9]
+Removing Lhs of wire \VDAC8_1:Net_83\[96] = zero[4]
+Removing Lhs of wire \VDAC8_1:Net_81\[97] = zero[4]
+Removing Lhs of wire \VDAC8_1:Net_82\[98] = zero[4]
+Removing Lhs of wire tmpOE__VDAC_Out_P0_1_net_0[102] = one[9]
+Removing Lhs of wire \VDAC8_2:Net_83\[109] = zero[4]
+Removing Lhs of wire \VDAC8_2:Net_81\[110] = zero[4]
+Removing Lhs of wire \VDAC8_2:Net_82\[111] = zero[4]
+Removing Lhs of wire tmpOE__VDAC_Out_P0_2_net_0[115] = one[9]
+Removing Lhs of wire \VDAC8_3:Net_83\[122] = zero[4]
+Removing Lhs of wire \VDAC8_3:Net_81\[123] = zero[4]
+Removing Lhs of wire \VDAC8_3:Net_82\[124] = zero[4]
+Removing Lhs of wire tmpOE__VDAC_Out_P0_3_net_0[128] = one[9]
+Removing Lhs of wire \VDAC8_4:Net_83\[135] = zero[4]
+Removing Lhs of wire \VDAC8_4:Net_81\[136] = zero[4]
+Removing Lhs of wire \VDAC8_4:Net_82\[137] = zero[4]
 
 ------------------------------------------------------
-Aliased 0 equations, 9 wires.
+Aliased 0 equations, 25 wires.
 ------------------------------------------------------
 
 ----------------------------------------------------------
@@ -197,16 +226,16 @@ topld:  No errors.
 
 CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp
 Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\bin\warp.exe
-Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=C:\Users\labadmin\Documents\PSoC Creator\USBFS_UART01\USBFS_UART01.cydsn\USBFS_UART01.cyprj" -dcpsoc3 USBFS_UART01.v -verilog
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\labadmin\Documents\GitHub\CY8CKITDAC\USBFS_UART01.cydsn\USBFS_UART01.cyprj -dcpsoc3 USBFS_UART01.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 1s.682ms
+Warp synthesis phase: Elapsed time ==> 0s.485ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V4.0.0.432, Family: PSoC3, Started at: Friday, 18 November 2016 14:52:03
-Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\labadmin\Documents\PSoC Creator\USBFS_UART01\USBFS_UART01.cydsn\USBFS_UART01.cyprj -d CY8C5868AXI-LP035 USBFS_UART01.v -verilog
+cyp3fit: V4.0.0.432, Family: PSoC3, Started at: Friday, 18 November 2016 16:14:44
+Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\labadmin\Documents\GitHub\CY8CKITDAC\USBFS_UART01.cydsn\USBFS_UART01.cyprj -d CY8C5868AXI-LP035 USBFS_UART01.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
-Design parsing phase: Elapsed time ==> 0s.079ms
+Design parsing phase: Elapsed time ==> 0s.089ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Tech Mapping">
 <CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
@@ -217,6 +246,9 @@ Design parsing phase: Elapsed time ==> 0s.079ms
 </CYPRESSTAG>
 ADD: pft.M0040: information: The following 6 pin(s) will be assigned a location by the fitter: \LCD:LCDPort(1)\, \LCD:LCDPort(2)\, \LCD:LCDPort(3)\, \LCD:LCDPort(4)\, \LCD:LCDPort(5)\, \LCD:LCDPort(6)\
 
+
+Removing unused cells resulting from optimization
+Done removing unused cells.
 <CYPRESSTAG name="Duplicate Macrocell detection">
 </CYPRESSTAG>
 </CYPRESSTAG>
@@ -570,6 +602,166 @@ Design Equations
         PORT MAP (
             pa_out => \LCD:LCDPort(6)\__PA ,
             pad => \LCD:LCDPort(6)_PAD\ );
+
+    Pin : Name = VDAC_Out_P0_0(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_ANALOG
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: True
+            Can contain Digital: False
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: ANALOG
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => VDAC_Out_P0_0(0)__PA ,
+            analog_term => Net_69 ,
+            pad => VDAC_Out_P0_0(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = VDAC_Out_P0_1(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_ANALOG
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: True
+            Can contain Digital: False
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: ANALOG
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => VDAC_Out_P0_1(0)__PA ,
+            analog_term => Net_72 ,
+            pad => VDAC_Out_P0_1(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = VDAC_Out_P0_2(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_ANALOG
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: True
+            Can contain Digital: False
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: ANALOG
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => VDAC_Out_P0_2(0)__PA ,
+            analog_term => Net_75 ,
+            pad => VDAC_Out_P0_2(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = VDAC_Out_P0_3(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_ANALOG
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: True
+            Can contain Digital: False
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: ANALOG
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => VDAC_Out_P0_3(0)__PA ,
+            analog_term => Net_78 ,
+            pad => VDAC_Out_P0_3(0)_PAD );
+        Properties:
+        {
+        }
     </CYPRESSTAG>
     <CYPRESSTAG name="Macrocell listing" icon="FILE_RPT_EQUATION">
     </CYPRESSTAG>
@@ -688,7 +880,7 @@ Analog Clocks                 :    1 :    3 :    4 : 25.00 %
 CapSense Buffers              :    0 :    2 :    2 :  0.00 %
 Digital Filter Block          :    0 :    1 :    1 :  0.00 %
 Interrupts                    :    9 :   23 :   32 : 28.13 %
-IO                            :   13 :   59 :   72 : 18.06 %
+IO                            :   17 :   55 :   72 : 23.61 %
 Segment LCD                   :    0 :    1 :    1 :  0.00 %
 CAN 2.0b                      :    0 :    1 :    1 :  0.00 %
 I2C                           :    0 :    1 :    1 :  0.00 %
@@ -709,28 +901,125 @@ LPF                           :    0 :    2 :    2 :  0.00 %
 SAR ADC                       :    0 :    2 :    2 :  0.00 %
 Analog (SC/CT) Blocks         :    0 :    4 :    4 :  0.00 %
 DAC                           :      :      :      :        
-  VIDAC                       :    0 :    4 :    4 :  0.00 %
+  VIDAC                       :    4 :    0 :    4 : 100.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.191ms
-Tech Mapping phase: Elapsed time ==> 0s.394ms
+Technology Mapping: Elapsed time ==> 0s.194ms
+Tech Mapping phase: Elapsed time ==> 0s.423ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 Initial Analog Placement Results:
+IO_0@[IOP=(0)][IoId=(0)] : VDAC_Out_P0_0(0) (fixed)
+IO_1@[IOP=(0)][IoId=(1)] : VDAC_Out_P0_1(0) (fixed)
+IO_2@[IOP=(0)][IoId=(2)] : VDAC_Out_P0_2(0) (fixed)
+IO_3@[IOP=(0)][IoId=(3)] : VDAC_Out_P0_3(0) (fixed)
 IO_0@[IOP=(2)][IoId=(0)] : \LCD:LCDPort(0)\ (fixed)
 IO_7@[IOP=(15)][IoId=(7)] : \USBUART:Dm(0)\ (fixed)
 IO_6@[IOP=(15)][IoId=(6)] : \USBUART:Dp(0)\ (fixed)
 USB[0]@[FFB(USB,0)] : \USBUART:USB\
-Analog Placement phase: Elapsed time ==> 0s.187ms
+VIDAC[3]@[FFB(VIDAC,3)] : \VDAC8_1:viDAC8\
+VIDAC[0]@[FFB(VIDAC,0)] : \VDAC8_2:viDAC8\
+VIDAC[2]@[FFB(VIDAC,2)] : \VDAC8_3:viDAC8\
+VIDAC[1]@[FFB(VIDAC,1)] : \VDAC8_4:viDAC8\
+Log: apr.M0058: The analog placement iterative improvement is 27% done. (App=cydsfit)
+Log: apr.M0058: The analog placement iterative improvement is 53% done. (App=cydsfit)
+Log: apr.M0058: The analog placement iterative improvement is 81% done. (App=cydsfit)
+Analog Placement Results:
+IO_0@[IOP=(0)][IoId=(0)] : VDAC_Out_P0_0(0) (fixed)
+IO_1@[IOP=(0)][IoId=(1)] : VDAC_Out_P0_1(0) (fixed)
+IO_2@[IOP=(0)][IoId=(2)] : VDAC_Out_P0_2(0) (fixed)
+IO_3@[IOP=(0)][IoId=(3)] : VDAC_Out_P0_3(0) (fixed)
+IO_0@[IOP=(2)][IoId=(0)] : \LCD:LCDPort(0)\ (fixed)
+IO_7@[IOP=(15)][IoId=(7)] : \USBUART:Dm(0)\ (fixed)
+IO_6@[IOP=(15)][IoId=(6)] : \USBUART:Dp(0)\ (fixed)
+USB[0]@[FFB(USB,0)] : \USBUART:USB\
+VIDAC[2]@[FFB(VIDAC,2)] : \VDAC8_1:viDAC8\
+VIDAC[3]@[FFB(VIDAC,3)] : \VDAC8_2:viDAC8\
+VIDAC[0]@[FFB(VIDAC,0)] : \VDAC8_3:viDAC8\
+VIDAC[1]@[FFB(VIDAC,1)] : \VDAC8_4:viDAC8\
+
+Analog Placement phase: Elapsed time ==> 1s.650ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
-Analog Routing phase: Elapsed time ==> 0s.003ms
+Analog Routing phase: Elapsed time ==> 0s.006ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Code Generation">
 ============ Analog Final Answer Routes ============
 Dump of CyAnalogRoutingResultsDB
 Map of net to items {
+  Net: Net_69 {
+    vidac_2_vout
+    agl4_x_vidac_2_vout
+    agl4
+    agl4_x_p0_0
+    p0_0
+  }
+  Net: Net_72 {
+    vidac_3_vout
+    agr5_x_vidac_3_vout
+    agr5
+    agl5_x_agr5
+    agl5
+    agl5_x_p0_1
+    p0_1
+  }
+  Net: Net_75 {
+    vidac_0_vout
+    amuxbusl_x_vidac_0_vout
+    amuxbusl
+    amuxbusl_x_p0_2
+    p0_2
+  }
+  Net: Net_78 {
+    vidac_1_vout
+    agr1_x_vidac_1_vout
+    agr1
+    agl1_x_agr1
+    agl1
+    agl1_x_dsm_0_vminus
+    dsm_0_vminus
+    agl7_x_dsm_0_vminus
+    agl7
+    agl7_x_p0_3
+    p0_3
+  }
+  Net: \VDAC8_1:Net_77\ {
+  }
+  Net: \VDAC8_2:Net_77\ {
+  }
+  Net: \VDAC8_3:Net_77\ {
+  }
+  Net: \VDAC8_4:Net_77\ {
+  }
 }
 Map of item to net {
+  vidac_2_vout                                     -> Net_69
+  agl4_x_vidac_2_vout                              -> Net_69
+  agl4                                             -> Net_69
+  agl4_x_p0_0                                      -> Net_69
+  p0_0                                             -> Net_69
+  vidac_3_vout                                     -> Net_72
+  agr5_x_vidac_3_vout                              -> Net_72
+  agr5                                             -> Net_72
+  agl5_x_agr5                                      -> Net_72
+  agl5                                             -> Net_72
+  agl5_x_p0_1                                      -> Net_72
+  p0_1                                             -> Net_72
+  vidac_0_vout                                     -> Net_75
+  amuxbusl_x_vidac_0_vout                          -> Net_75
+  amuxbusl                                         -> Net_75
+  amuxbusl_x_p0_2                                  -> Net_75
+  p0_2                                             -> Net_75
+  vidac_1_vout                                     -> Net_78
+  agr1_x_vidac_1_vout                              -> Net_78
+  agr1                                             -> Net_78
+  agl1_x_agr1                                      -> Net_78
+  agl1                                             -> Net_78
+  agl1_x_dsm_0_vminus                              -> Net_78
+  dsm_0_vminus                                     -> Net_78
+  agl7_x_dsm_0_vminus                              -> Net_78
+  agl7                                             -> Net_78
+  agl7_x_p0_3                                      -> Net_78
+  p0_3                                             -> Net_78
 }
 Mux Info {
 }
@@ -738,7 +1027,7 @@ Dump of CyP35AnalogRoutingResultsDB
 IsVddaHalfUsedForComp = False
 IsVddaHalfUsedForSar0 = False
 IsVddaHalfUsedForSar1 = False
-Analog Code Generation phase: Elapsed time ==> 0s.365ms
+Analog Code Generation phase: Elapsed time ==> 0s.354ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
@@ -750,7 +1039,7 @@ I2076: Total run-time: 0.6 sec.
 <CYPRESSTAG name="PLD Packing Summary">
 No PLDs were packed.
 </CYPRESSTAG>
-PLD Packing: Elapsed time ==> 0s.018ms
+PLD Packing: Elapsed time ==> 0s.015ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Partitioning">
 <CYPRESSTAG name="Initial Partitioning Summary">
@@ -881,7 +1170,171 @@ Intr container @ [IntrContainer=(0)]:
             is_nmi = 0
         }
 Drq container @ [DrqContainer=(0)]: empty
-Port 0 is empty
+Port 0 contains the following IO cells:
+[IoId=0]: 
+Pin : Name = VDAC_Out_P0_0(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_ANALOG
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: True
+        Can contain Digital: False
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: ANALOG
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => VDAC_Out_P0_0(0)__PA ,
+        analog_term => Net_69 ,
+        pad => VDAC_Out_P0_0(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=1]: 
+Pin : Name = VDAC_Out_P0_1(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_ANALOG
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: True
+        Can contain Digital: False
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: ANALOG
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => VDAC_Out_P0_1(0)__PA ,
+        analog_term => Net_72 ,
+        pad => VDAC_Out_P0_1(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=2]: 
+Pin : Name = VDAC_Out_P0_2(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_ANALOG
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: True
+        Can contain Digital: False
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: ANALOG
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => VDAC_Out_P0_2(0)__PA ,
+        analog_term => Net_75 ,
+        pad => VDAC_Out_P0_2(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=3]: 
+Pin : Name = VDAC_Out_P0_3(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_ANALOG
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: True
+        Can contain Digital: False
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: ANALOG
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => VDAC_Out_P0_3(0)__PA ,
+        analog_term => Net_78 ,
+        pad => VDAC_Out_P0_3(0)_PAD );
+    Properties:
+    {
+    }
+
 Port 1 is empty
 Port 2 contains the following IO cells:
 [IoId=0]: 
@@ -1392,7 +1845,51 @@ USB group 0:
         {
             cy_registers = ""
         }
-VIDAC group 0: empty
+VIDAC group 0: 
+    VIDAC Block @ F(VIDAC,0): 
+    vidaccell: Name =\VDAC8_3:viDAC8\
+        PORT MAP (
+            vout => Net_75 ,
+            iout => \VDAC8_3:Net_77\ );
+        Properties:
+        {
+            cy_registers = ""
+            is_all_if_any = 0
+            reg_data = 0
+        }
+    VIDAC Block @ F(VIDAC,1): 
+    vidaccell: Name =\VDAC8_4:viDAC8\
+        PORT MAP (
+            vout => Net_78 ,
+            iout => \VDAC8_4:Net_77\ );
+        Properties:
+        {
+            cy_registers = ""
+            is_all_if_any = 0
+            reg_data = 0
+        }
+    VIDAC Block @ F(VIDAC,2): 
+    vidaccell: Name =\VDAC8_1:viDAC8\
+        PORT MAP (
+            vout => Net_69 ,
+            iout => \VDAC8_1:Net_77\ );
+        Properties:
+        {
+            cy_registers = ""
+            is_all_if_any = 0
+            reg_data = 0
+        }
+    VIDAC Block @ F(VIDAC,3): 
+    vidaccell: Name =\VDAC8_2:viDAC8\
+        PORT MAP (
+            vout => Net_72 ,
+            iout => \VDAC8_2:Net_77\ );
+        Properties:
+        {
+            cy_registers = ""
+            is_all_if_any = 0
+            reg_data = 0
+        }
 Opamp group 0: empty
 CapSense Buffers group 0: empty
 Vref group 0: empty
@@ -1406,6 +1903,11 @@ Port Configuration report
 ------------------------------------------------------------
      |     |       | Interrupt |                  |                  | 
 Port | Pin | Fixed |      Type |       Drive Mode |             Name | Connections
+-----+-----+-------+-----------+------------------+------------------+---------------------------
+   0 |   0 |     * |      NONE |      HI_Z_ANALOG | VDAC_Out_P0_0(0) | Analog(Net_69)
+     |   1 |     * |      NONE |      HI_Z_ANALOG | VDAC_Out_P0_1(0) | Analog(Net_72)
+     |   2 |     * |      NONE |      HI_Z_ANALOG | VDAC_Out_P0_2(0) | Analog(Net_75)
+     |   3 |     * |      NONE |      HI_Z_ANALOG | VDAC_Out_P0_3(0) | Analog(Net_78)
 -----+-----+-------+-----------+------------------+------------------+---------------------------
    2 |   0 |     * |      NONE |         CMOS_OUT | \LCD:LCDPort(0)\ | 
      |   1 |     * |      NONE |         CMOS_OUT | \LCD:LCDPort(1)\ | 
@@ -1422,34 +1924,31 @@ Port | Pin | Fixed |      Type |       Drive Mode |             Name | Connectio
 </CYPRESSTAG>
 </CYPRESSTAG>
 Digital component placer commit/Report: Elapsed time ==> 0s.018ms
-Digital Placement phase: Elapsed time ==> 2s.445ms
+Digital Placement phase: Elapsed time ==> 1s.233ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 Routing successful.
-Digital Routing phase: Elapsed time ==> 1s.565ms
+Digital Routing phase: Elapsed time ==> 1s.378ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Generation">
-Bitstream Generation phase: Elapsed time ==> 0s.679ms
+Bitstream Generation phase: Elapsed time ==> 0s.361ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Verification">
-Bitstream Verification phase: Elapsed time ==> 0s.116ms
+Bitstream Verification phase: Elapsed time ==> 0s.101ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Timing report is in USBFS_UART01_timing.html.
-Static timing analysis phase: Elapsed time ==> 0s.376ms
+Static timing analysis phase: Elapsed time ==> 0s.299ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
-Data reporting phase: Elapsed time ==> 0s.009ms
+Data reporting phase: Elapsed time ==> 0s.008ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.209ms
+Design database save phase: Elapsed time ==> 0s.175ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 6s.484ms
+cydsfit: Elapsed time ==> 6s.131ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 6s.497ms
-DEL: pft.M0074: information: A (re)build is required to use the analog device editor. Unable to load the necessary information from the cyfit file. Partial/wrong data will be displayed until this has been resolved.
- * C:\Users\labadmin\Documents\PSoC Creator\USBFS_UART01\USBFS_UART01.cydsn\USBFS_UART01.cydwr ()
-
-API generation phase: Elapsed time ==> 2s.819ms
-Dependency generation phase: Elapsed time ==> 0s.040ms
+Fitter phase: Elapsed time ==> 6s.154ms
+API generation phase: Elapsed time ==> 2s.067ms
+Dependency generation phase: Elapsed time ==> 0s.039ms
 Cleanup phase: Elapsed time ==> 0s.004ms

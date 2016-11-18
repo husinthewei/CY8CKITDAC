@@ -1,6 +1,6 @@
 // ======================================================================
 // USBFS_UART01.v generated from TopDesign.cysch
-// 11/18/2016 at 14:52
+// 11/18/2016 at 16:14
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -564,11 +564,211 @@ module CharLCD_v2_20_1 ;
 
 endmodule
 
+// VDAC8_v1_90(Data_Source=0, Initial_Value=200, Strobe_Mode=0, VDAC_Range=0, VDAC_Speed=0, Voltage=800, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMPONENT_NAME=VDAC8_v1_90, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=VDAC8_1, CY_INSTANCE_SHORT_NAME=VDAC8_1, CY_MAJOR_VERSION=1, CY_MINOR_VERSION=90, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.0, INSTANCE_NAME=VDAC8_1, )
+module VDAC8_v1_90_2 (
+    strobe,
+    data,
+    vOut);
+    input       strobe;
+    input      [7:0] data;
+    inout       vOut;
+    electrical  vOut;
+
+    parameter Data_Source = 0;
+    parameter Initial_Value = 200;
+    parameter Strobe_Mode = 0;
+
+    electrical  Net_77;
+          wire  Net_83;
+          wire  Net_82;
+          wire  Net_81;
+
+    cy_psoc3_vidac8_v1_0 viDAC8 (
+        .reset(Net_83),
+        .idir(Net_81),
+        .data(data[7:0]),
+        .strobe(strobe),
+        .vout(vOut),
+        .iout(Net_77),
+        .ioff(Net_82),
+        .strobe_udb(strobe));
+    defparam viDAC8.is_all_if_any = 0;
+    defparam viDAC8.reg_data = 0;
+
+    ZeroTerminal ZeroTerminal_1 (
+        .z(Net_81));
+
+    ZeroTerminal ZeroTerminal_2 (
+        .z(Net_82));
+
+    ZeroTerminal ZeroTerminal_3 (
+        .z(Net_83));
+
+    cy_analog_noconnect_v1_0 cy_analog_noconnect_1 (
+        .noconnect(Net_77));
+
+
+
+endmodule
+
+// VDAC8_v1_90(Data_Source=0, Initial_Value=200, Strobe_Mode=0, VDAC_Range=0, VDAC_Speed=0, Voltage=800, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMPONENT_NAME=VDAC8_v1_90, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=VDAC8_2, CY_INSTANCE_SHORT_NAME=VDAC8_2, CY_MAJOR_VERSION=1, CY_MINOR_VERSION=90, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.0, INSTANCE_NAME=VDAC8_2, )
+module VDAC8_v1_90_3 (
+    strobe,
+    data,
+    vOut);
+    input       strobe;
+    input      [7:0] data;
+    inout       vOut;
+    electrical  vOut;
+
+    parameter Data_Source = 0;
+    parameter Initial_Value = 200;
+    parameter Strobe_Mode = 0;
+
+    electrical  Net_77;
+          wire  Net_83;
+          wire  Net_82;
+          wire  Net_81;
+
+    cy_psoc3_vidac8_v1_0 viDAC8 (
+        .reset(Net_83),
+        .idir(Net_81),
+        .data(data[7:0]),
+        .strobe(strobe),
+        .vout(vOut),
+        .iout(Net_77),
+        .ioff(Net_82),
+        .strobe_udb(strobe));
+    defparam viDAC8.is_all_if_any = 0;
+    defparam viDAC8.reg_data = 0;
+
+    ZeroTerminal ZeroTerminal_1 (
+        .z(Net_81));
+
+    ZeroTerminal ZeroTerminal_2 (
+        .z(Net_82));
+
+    ZeroTerminal ZeroTerminal_3 (
+        .z(Net_83));
+
+    cy_analog_noconnect_v1_0 cy_analog_noconnect_1 (
+        .noconnect(Net_77));
+
+
+
+endmodule
+
+// VDAC8_v1_90(Data_Source=0, Initial_Value=200, Strobe_Mode=0, VDAC_Range=0, VDAC_Speed=0, Voltage=800, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMPONENT_NAME=VDAC8_v1_90, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=VDAC8_3, CY_INSTANCE_SHORT_NAME=VDAC8_3, CY_MAJOR_VERSION=1, CY_MINOR_VERSION=90, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.0, INSTANCE_NAME=VDAC8_3, )
+module VDAC8_v1_90_4 (
+    strobe,
+    data,
+    vOut);
+    input       strobe;
+    input      [7:0] data;
+    inout       vOut;
+    electrical  vOut;
+
+    parameter Data_Source = 0;
+    parameter Initial_Value = 200;
+    parameter Strobe_Mode = 0;
+
+    electrical  Net_77;
+          wire  Net_83;
+          wire  Net_82;
+          wire  Net_81;
+
+    cy_psoc3_vidac8_v1_0 viDAC8 (
+        .reset(Net_83),
+        .idir(Net_81),
+        .data(data[7:0]),
+        .strobe(strobe),
+        .vout(vOut),
+        .iout(Net_77),
+        .ioff(Net_82),
+        .strobe_udb(strobe));
+    defparam viDAC8.is_all_if_any = 0;
+    defparam viDAC8.reg_data = 0;
+
+    ZeroTerminal ZeroTerminal_1 (
+        .z(Net_81));
+
+    ZeroTerminal ZeroTerminal_2 (
+        .z(Net_82));
+
+    ZeroTerminal ZeroTerminal_3 (
+        .z(Net_83));
+
+    cy_analog_noconnect_v1_0 cy_analog_noconnect_1 (
+        .noconnect(Net_77));
+
+
+
+endmodule
+
+// VDAC8_v1_90(Data_Source=0, Initial_Value=200, Strobe_Mode=0, VDAC_Range=0, VDAC_Speed=0, Voltage=800, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMPONENT_NAME=VDAC8_v1_90, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=VDAC8_4, CY_INSTANCE_SHORT_NAME=VDAC8_4, CY_MAJOR_VERSION=1, CY_MINOR_VERSION=90, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.0, INSTANCE_NAME=VDAC8_4, )
+module VDAC8_v1_90_5 (
+    strobe,
+    data,
+    vOut);
+    input       strobe;
+    input      [7:0] data;
+    inout       vOut;
+    electrical  vOut;
+
+    parameter Data_Source = 0;
+    parameter Initial_Value = 200;
+    parameter Strobe_Mode = 0;
+
+    electrical  Net_77;
+          wire  Net_83;
+          wire  Net_82;
+          wire  Net_81;
+
+    cy_psoc3_vidac8_v1_0 viDAC8 (
+        .reset(Net_83),
+        .idir(Net_81),
+        .data(data[7:0]),
+        .strobe(strobe),
+        .vout(vOut),
+        .iout(Net_77),
+        .ioff(Net_82),
+        .strobe_udb(strobe));
+    defparam viDAC8.is_all_if_any = 0;
+    defparam viDAC8.reg_data = 0;
+
+    ZeroTerminal ZeroTerminal_1 (
+        .z(Net_81));
+
+    ZeroTerminal ZeroTerminal_2 (
+        .z(Net_82));
+
+    ZeroTerminal ZeroTerminal_3 (
+        .z(Net_83));
+
+    cy_analog_noconnect_v1_0 cy_analog_noconnect_1 (
+        .noconnect(Net_77));
+
+
+
+endmodule
+
 // top
 module top ;
 
+          wire [7:0] Net_80;
+          wire  Net_79;
+          wire [7:0] Net_77;
+          wire  Net_76;
+    electrical  Net_75;
+          wire [7:0] Net_74;
+          wire  Net_73;
+          wire [7:0] Net_71;
+          wire  Net_70;
           wire  Net_68;
           wire  Net_67;
+    electrical  Net_78;
+    electrical  Net_72;
+    electrical  Net_69;
 
     USBFS_v3_10_0 USBUART (
         .sof(Net_67),
@@ -576,6 +776,342 @@ module top ;
     defparam USBUART.epDMAautoOptimization = 0;
 
     CharLCD_v2_20_1 LCD ();
+
+	wire [0:0] tmpOE__VDAC_Out_P0_0_net;
+	wire [0:0] tmpFB_0__VDAC_Out_P0_0_net;
+	wire [0:0] tmpIO_0__VDAC_Out_P0_0_net;
+	wire [0:0] tmpINTERRUPT_0__VDAC_Out_P0_0_net;
+	electrical [0:0] tmpSIOVREF__VDAC_Out_P0_0_net;
+
+	cy_psoc3_pins_v1_10
+		#(.id("2cef2f88-7259-4883-ba46-1599c7ea919d"),
+		  .drive_mode(3'b000),
+		  .ibuf_enabled(1'b0),
+		  .init_dr_st(1'b0),
+		  .input_clk_en(0),
+		  .input_sync(1'b1),
+		  .input_sync_mode(1'b0),
+		  .intr_mode(2'b00),
+		  .invert_in_clock(0),
+		  .invert_in_clock_en(0),
+		  .invert_in_reset(0),
+		  .invert_out_clock(0),
+		  .invert_out_clock_en(0),
+		  .invert_out_reset(0),
+		  .io_voltage(""),
+		  .layout_mode("NONCONTIGUOUS"),
+		  .oe_conn(1'b0),
+		  .oe_reset(0),
+		  .oe_sync(1'b0),
+		  .output_clk_en(0),
+		  .output_clock_mode(1'b0),
+		  .output_conn(1'b0),
+		  .output_mode(1'b0),
+		  .output_reset(0),
+		  .output_sync(1'b0),
+		  .pa_in_clock(-1),
+		  .pa_in_clock_en(-1),
+		  .pa_in_reset(-1),
+		  .pa_out_clock(-1),
+		  .pa_out_clock_en(-1),
+		  .pa_out_reset(-1),
+		  .pin_aliases(""),
+		  .pin_mode("A"),
+		  .por_state(4),
+		  .sio_group_cnt(0),
+		  .sio_hyst(1'b1),
+		  .sio_ibuf(""),
+		  .sio_info(2'b00),
+		  .sio_obuf(""),
+		  .sio_refsel(""),
+		  .sio_vtrip(""),
+		  .sio_hifreq(""),
+		  .sio_vohsel(""),
+		  .slew_rate(1'b0),
+		  .spanning(1),
+		  .use_annotation(1'b0),
+		  .vtrip(2'b10),
+		  .width(1),
+		  .ovt_hyst_trim(1'b0),
+		  .ovt_needed(1'b0),
+		  .ovt_slew_control(2'b00),
+		  .input_buffer_sel(2'b00))
+		VDAC_Out_P0_0
+		 (.oe(tmpOE__VDAC_Out_P0_0_net),
+		  .y({1'b0}),
+		  .fb({tmpFB_0__VDAC_Out_P0_0_net[0:0]}),
+		  .analog({Net_69}),
+		  .io({tmpIO_0__VDAC_Out_P0_0_net[0:0]}),
+		  .siovref(tmpSIOVREF__VDAC_Out_P0_0_net),
+		  .interrupt({tmpINTERRUPT_0__VDAC_Out_P0_0_net[0:0]}),
+		  .in_clock({1'b0}),
+		  .in_clock_en({1'b1}),
+		  .in_reset({1'b0}),
+		  .out_clock({1'b0}),
+		  .out_clock_en({1'b1}),
+		  .out_reset({1'b0}));
+
+	assign tmpOE__VDAC_Out_P0_0_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{1'b1} : {1'b1};
+
+    VDAC8_v1_90_2 VDAC8_1 (
+        .strobe(1'b0),
+        .data(8'b00000000),
+        .vOut(Net_69));
+    defparam VDAC8_1.Data_Source = 0;
+    defparam VDAC8_1.Initial_Value = 200;
+    defparam VDAC8_1.Strobe_Mode = 0;
+
+	wire [0:0] tmpOE__VDAC_Out_P0_1_net;
+	wire [0:0] tmpFB_0__VDAC_Out_P0_1_net;
+	wire [0:0] tmpIO_0__VDAC_Out_P0_1_net;
+	wire [0:0] tmpINTERRUPT_0__VDAC_Out_P0_1_net;
+	electrical [0:0] tmpSIOVREF__VDAC_Out_P0_1_net;
+
+	cy_psoc3_pins_v1_10
+		#(.id("c110c831-1682-43f3-aa6a-224937fffd99"),
+		  .drive_mode(3'b000),
+		  .ibuf_enabled(1'b0),
+		  .init_dr_st(1'b0),
+		  .input_clk_en(0),
+		  .input_sync(1'b1),
+		  .input_sync_mode(1'b0),
+		  .intr_mode(2'b00),
+		  .invert_in_clock(0),
+		  .invert_in_clock_en(0),
+		  .invert_in_reset(0),
+		  .invert_out_clock(0),
+		  .invert_out_clock_en(0),
+		  .invert_out_reset(0),
+		  .io_voltage(""),
+		  .layout_mode("NONCONTIGUOUS"),
+		  .oe_conn(1'b0),
+		  .oe_reset(0),
+		  .oe_sync(1'b0),
+		  .output_clk_en(0),
+		  .output_clock_mode(1'b0),
+		  .output_conn(1'b0),
+		  .output_mode(1'b0),
+		  .output_reset(0),
+		  .output_sync(1'b0),
+		  .pa_in_clock(-1),
+		  .pa_in_clock_en(-1),
+		  .pa_in_reset(-1),
+		  .pa_out_clock(-1),
+		  .pa_out_clock_en(-1),
+		  .pa_out_reset(-1),
+		  .pin_aliases(""),
+		  .pin_mode("A"),
+		  .por_state(4),
+		  .sio_group_cnt(0),
+		  .sio_hyst(1'b1),
+		  .sio_ibuf(""),
+		  .sio_info(2'b00),
+		  .sio_obuf(""),
+		  .sio_refsel(""),
+		  .sio_vtrip(""),
+		  .sio_hifreq(""),
+		  .sio_vohsel(""),
+		  .slew_rate(1'b0),
+		  .spanning(1),
+		  .use_annotation(1'b0),
+		  .vtrip(2'b10),
+		  .width(1),
+		  .ovt_hyst_trim(1'b0),
+		  .ovt_needed(1'b0),
+		  .ovt_slew_control(2'b00),
+		  .input_buffer_sel(2'b00))
+		VDAC_Out_P0_1
+		 (.oe(tmpOE__VDAC_Out_P0_1_net),
+		  .y({1'b0}),
+		  .fb({tmpFB_0__VDAC_Out_P0_1_net[0:0]}),
+		  .analog({Net_72}),
+		  .io({tmpIO_0__VDAC_Out_P0_1_net[0:0]}),
+		  .siovref(tmpSIOVREF__VDAC_Out_P0_1_net),
+		  .interrupt({tmpINTERRUPT_0__VDAC_Out_P0_1_net[0:0]}),
+		  .in_clock({1'b0}),
+		  .in_clock_en({1'b1}),
+		  .in_reset({1'b0}),
+		  .out_clock({1'b0}),
+		  .out_clock_en({1'b1}),
+		  .out_reset({1'b0}));
+
+	assign tmpOE__VDAC_Out_P0_1_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{1'b1} : {1'b1};
+
+    VDAC8_v1_90_3 VDAC8_2 (
+        .strobe(1'b0),
+        .data(8'b00000000),
+        .vOut(Net_72));
+    defparam VDAC8_2.Data_Source = 0;
+    defparam VDAC8_2.Initial_Value = 200;
+    defparam VDAC8_2.Strobe_Mode = 0;
+
+	wire [0:0] tmpOE__VDAC_Out_P0_2_net;
+	wire [0:0] tmpFB_0__VDAC_Out_P0_2_net;
+	wire [0:0] tmpIO_0__VDAC_Out_P0_2_net;
+	wire [0:0] tmpINTERRUPT_0__VDAC_Out_P0_2_net;
+	electrical [0:0] tmpSIOVREF__VDAC_Out_P0_2_net;
+
+	cy_psoc3_pins_v1_10
+		#(.id("45b763dd-fe4a-46ab-8ae9-2b16f1df6e89"),
+		  .drive_mode(3'b000),
+		  .ibuf_enabled(1'b0),
+		  .init_dr_st(1'b0),
+		  .input_clk_en(0),
+		  .input_sync(1'b1),
+		  .input_sync_mode(1'b0),
+		  .intr_mode(2'b00),
+		  .invert_in_clock(0),
+		  .invert_in_clock_en(0),
+		  .invert_in_reset(0),
+		  .invert_out_clock(0),
+		  .invert_out_clock_en(0),
+		  .invert_out_reset(0),
+		  .io_voltage(""),
+		  .layout_mode("NONCONTIGUOUS"),
+		  .oe_conn(1'b0),
+		  .oe_reset(0),
+		  .oe_sync(1'b0),
+		  .output_clk_en(0),
+		  .output_clock_mode(1'b0),
+		  .output_conn(1'b0),
+		  .output_mode(1'b0),
+		  .output_reset(0),
+		  .output_sync(1'b0),
+		  .pa_in_clock(-1),
+		  .pa_in_clock_en(-1),
+		  .pa_in_reset(-1),
+		  .pa_out_clock(-1),
+		  .pa_out_clock_en(-1),
+		  .pa_out_reset(-1),
+		  .pin_aliases(""),
+		  .pin_mode("A"),
+		  .por_state(4),
+		  .sio_group_cnt(0),
+		  .sio_hyst(1'b1),
+		  .sio_ibuf(""),
+		  .sio_info(2'b00),
+		  .sio_obuf(""),
+		  .sio_refsel(""),
+		  .sio_vtrip(""),
+		  .sio_hifreq(""),
+		  .sio_vohsel(""),
+		  .slew_rate(1'b0),
+		  .spanning(1),
+		  .use_annotation(1'b0),
+		  .vtrip(2'b10),
+		  .width(1),
+		  .ovt_hyst_trim(1'b0),
+		  .ovt_needed(1'b0),
+		  .ovt_slew_control(2'b00),
+		  .input_buffer_sel(2'b00))
+		VDAC_Out_P0_2
+		 (.oe(tmpOE__VDAC_Out_P0_2_net),
+		  .y({1'b0}),
+		  .fb({tmpFB_0__VDAC_Out_P0_2_net[0:0]}),
+		  .analog({Net_75}),
+		  .io({tmpIO_0__VDAC_Out_P0_2_net[0:0]}),
+		  .siovref(tmpSIOVREF__VDAC_Out_P0_2_net),
+		  .interrupt({tmpINTERRUPT_0__VDAC_Out_P0_2_net[0:0]}),
+		  .in_clock({1'b0}),
+		  .in_clock_en({1'b1}),
+		  .in_reset({1'b0}),
+		  .out_clock({1'b0}),
+		  .out_clock_en({1'b1}),
+		  .out_reset({1'b0}));
+
+	assign tmpOE__VDAC_Out_P0_2_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{1'b1} : {1'b1};
+
+    VDAC8_v1_90_4 VDAC8_3 (
+        .strobe(1'b0),
+        .data(8'b00000000),
+        .vOut(Net_75));
+    defparam VDAC8_3.Data_Source = 0;
+    defparam VDAC8_3.Initial_Value = 200;
+    defparam VDAC8_3.Strobe_Mode = 0;
+
+	wire [0:0] tmpOE__VDAC_Out_P0_3_net;
+	wire [0:0] tmpFB_0__VDAC_Out_P0_3_net;
+	wire [0:0] tmpIO_0__VDAC_Out_P0_3_net;
+	wire [0:0] tmpINTERRUPT_0__VDAC_Out_P0_3_net;
+	electrical [0:0] tmpSIOVREF__VDAC_Out_P0_3_net;
+
+	cy_psoc3_pins_v1_10
+		#(.id("39a8a659-ec51-45c2-8124-006913b9a0f0"),
+		  .drive_mode(3'b000),
+		  .ibuf_enabled(1'b0),
+		  .init_dr_st(1'b0),
+		  .input_clk_en(0),
+		  .input_sync(1'b1),
+		  .input_sync_mode(1'b0),
+		  .intr_mode(2'b00),
+		  .invert_in_clock(0),
+		  .invert_in_clock_en(0),
+		  .invert_in_reset(0),
+		  .invert_out_clock(0),
+		  .invert_out_clock_en(0),
+		  .invert_out_reset(0),
+		  .io_voltage(""),
+		  .layout_mode("NONCONTIGUOUS"),
+		  .oe_conn(1'b0),
+		  .oe_reset(0),
+		  .oe_sync(1'b0),
+		  .output_clk_en(0),
+		  .output_clock_mode(1'b0),
+		  .output_conn(1'b0),
+		  .output_mode(1'b0),
+		  .output_reset(0),
+		  .output_sync(1'b0),
+		  .pa_in_clock(-1),
+		  .pa_in_clock_en(-1),
+		  .pa_in_reset(-1),
+		  .pa_out_clock(-1),
+		  .pa_out_clock_en(-1),
+		  .pa_out_reset(-1),
+		  .pin_aliases(""),
+		  .pin_mode("A"),
+		  .por_state(4),
+		  .sio_group_cnt(0),
+		  .sio_hyst(1'b1),
+		  .sio_ibuf(""),
+		  .sio_info(2'b00),
+		  .sio_obuf(""),
+		  .sio_refsel(""),
+		  .sio_vtrip(""),
+		  .sio_hifreq(""),
+		  .sio_vohsel(""),
+		  .slew_rate(1'b0),
+		  .spanning(1),
+		  .use_annotation(1'b0),
+		  .vtrip(2'b10),
+		  .width(1),
+		  .ovt_hyst_trim(1'b0),
+		  .ovt_needed(1'b0),
+		  .ovt_slew_control(2'b00),
+		  .input_buffer_sel(2'b00))
+		VDAC_Out_P0_3
+		 (.oe(tmpOE__VDAC_Out_P0_3_net),
+		  .y({1'b0}),
+		  .fb({tmpFB_0__VDAC_Out_P0_3_net[0:0]}),
+		  .analog({Net_78}),
+		  .io({tmpIO_0__VDAC_Out_P0_3_net[0:0]}),
+		  .siovref(tmpSIOVREF__VDAC_Out_P0_3_net),
+		  .interrupt({tmpINTERRUPT_0__VDAC_Out_P0_3_net[0:0]}),
+		  .in_clock({1'b0}),
+		  .in_clock_en({1'b1}),
+		  .in_reset({1'b0}),
+		  .out_clock({1'b0}),
+		  .out_clock_en({1'b1}),
+		  .out_reset({1'b0}));
+
+	assign tmpOE__VDAC_Out_P0_3_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{1'b1} : {1'b1};
+
+    VDAC8_v1_90_5 VDAC8_4 (
+        .strobe(1'b0),
+        .data(8'b00000000),
+        .vOut(Net_78));
+    defparam VDAC8_4.Data_Source = 0;
+    defparam VDAC8_4.Initial_Value = 200;
+    defparam VDAC8_4.Strobe_Mode = 0;
 
 
 

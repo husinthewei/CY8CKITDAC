@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
   20:Generated_Source\PSoC5/CySpc.c **** #define CY_SPC_KEY_TWO(x)                   ((uint8) (((uint16) 0xD3u) + ((uint16) (x))))
   21:Generated_Source\PSoC5/CySpc.c **** 
   22:Generated_Source\PSoC5/CySpc.c **** /* Command Codes */
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 2
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 2
 
 
   23:Generated_Source\PSoC5/CySpc.c **** #define CY_SPC_CMD_LD_BYTE                  (0x00u)
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
   40 0000 80B5     		push	{r7, lr}
   41              		.cfi_def_cfa_offset 8
   42              		.cfi_offset 7, -8
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 3
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 3
 
 
   43              		.cfi_offset 14, -4
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
   88              		.align	2
   89              		.global	CySpcStop
   90              		.thumb
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 4
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 4
 
 
   91              		.thumb_func
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  127              		.loc 1 99 0
  128 002e FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
  129 0030 1846     		mov	r0, r3
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 5
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 5
 
 
  130 0032 FFF7FEFF 		bl	CyExitCriticalSection
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  163              		.cfi_def_cfa_offset 24
  164 0004 00AF     		add	r7, sp, #0
  165              		.cfi_def_cfa_register 7
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 6
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 6
 
 
  166 0006 7860     		str	r0, [r7, #4]
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  132:Generated_Source\PSoC5/CySpc.c ****     return(i);
  206              		.loc 1 132 0 is_stmt 1
  207 0044 FB7B     		ldrb	r3, [r7, #15]	@ zero_extendqisi2
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 7
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 7
 
 
  133:Generated_Source\PSoC5/CySpc.c **** }
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  232              		.loc 1 162 0
  233              		.cfi_startproc
  234              		@ args = 0, pretend = 0, frame = 16
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 8
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 8
 
 
  235              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  278 003c 002B     		cmp	r3, #0
  279 003e 38D0     		beq	.L19
  174:Generated_Source\PSoC5/CySpc.c ****         {
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 9
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 9
 
 
  175:Generated_Source\PSoC5/CySpc.c ****             CY_SPC_CPU_DATA_REG = CY_SPC_KEY_ONE;
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  186:Generated_Source\PSoC5/CySpc.c ****                 for(i = 0u; i < size; i++)
  323              		.loc 1 186 0
  324 008a 0023     		movs	r3, #0
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 10
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 10
 
 
  325 008c FB72     		strb	r3, [r7, #11]
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  199:Generated_Source\PSoC5/CySpc.c ****         }
  200:Generated_Source\PSoC5/CySpc.c ****     }
  201:Generated_Source\PSoC5/CySpc.c ****     else
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 11
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 11
 
 
  202:Generated_Source\PSoC5/CySpc.c ****     {
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  223:Generated_Source\PSoC5/CySpc.c **** *  \param uint8* buffer:
  224:Generated_Source\PSoC5/CySpc.c **** *   Data to be loaded to the row latch
  225:Generated_Source\PSoC5/CySpc.c **** *
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 12
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 12
 
 
  226:Generated_Source\PSoC5/CySpc.c **** *  \param uint8 size:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  427 0028 174B     		ldr	r3, .L38+4
  428 002a D522     		movs	r2, #213
  429 002c 1A70     		strb	r2, [r3]
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 13
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 13
 
 
  248:Generated_Source\PSoC5/CySpc.c ****         CY_SPC_CPU_DATA_REG = CY_SPC_CMD_LD_ROW;
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  261:Generated_Source\PSoC5/CySpc.c ****         {
  262:Generated_Source\PSoC5/CySpc.c ****             status = CYRET_CANCELED;
  469              		.loc 1 262 0 is_stmt 1
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 14
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 14
 
 
  470 006a 0923     		movs	r3, #9
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  280:Generated_Source\PSoC5/CySpc.c **** *  will handle unmodified data preservation based on DWR settings and input
  281:Generated_Source\PSoC5/CySpc.c **** *  parameters.
  282:Generated_Source\PSoC5/CySpc.c **** *
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 15
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 15
 
 
  283:Generated_Source\PSoC5/CySpc.c **** *  \param uint8 array:
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  314:Generated_Source\PSoC5/CySpc.c ****     /* Make sure the SPC is ready to accept command */
  315:Generated_Source\PSoC5/CySpc.c ****     if(CY_SPC_IDLE)
  530              		.loc 1 315 0
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 16
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 16
 
 
  531 001a 394B     		ldr	r3, .L53
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  560              		.loc 1 340 0
  561 004e FB88     		ldrh	r3, [r7, #6]
  562 0050 202B     		cmp	r3, #32
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 17
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 17
 
 
  563 0052 18D1     		bne	.L43
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  353:Generated_Source\PSoC5/CySpc.c **** 
  354:Generated_Source\PSoC5/CySpc.c **** 
  355:Generated_Source\PSoC5/CySpc.c ****             for(i = 0u; i < size; i++)
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 18
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 18
 
 
  601              		.loc 1 355 0 is_stmt 1
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  628 00ae FB7B     		ldrb	r3, [r7, #15]	@ zero_extendqisi2
  629 00b0 3F2B     		cmp	r3, #63
  630 00b2 1DD8     		bhi	.L51
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 19
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 19
 
 
  381:Generated_Source\PSoC5/CySpc.c ****                 {
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  396:Generated_Source\PSoC5/CySpc.c ****                     /* To remove unreferenced local variable warning */
  397:Generated_Source\PSoC5/CySpc.c ****                 }
  398:Generated_Source\PSoC5/CySpc.c **** 
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 20
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 20
 
 
  399:Generated_Source\PSoC5/CySpc.c ****             #endif /* (CYDEV_ECC_ENABLE == 0) */
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  415:Generated_Source\PSoC5/CySpc.c **** /*******************************************************************************
  416:Generated_Source\PSoC5/CySpc.c **** * Function Name: CySpcWriteRow
  417:Generated_Source\PSoC5/CySpc.c **** ****************************************************************************//**
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 21
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 21
 
 
  418:Generated_Source\PSoC5/CySpc.c **** *  Erases then programs a row in Flash/EEPROM with data in row latch.
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  444:Generated_Source\PSoC5/CySpc.c **** 
  445:Generated_Source\PSoC5/CySpc.c ****     /* Make sure the SPC is ready to accept command */
  446:Generated_Source\PSoC5/CySpc.c ****     if(CY_SPC_IDLE)
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 22
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 22
 
 
  732              		.loc 1 446 0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  774              		.loc 1 458 0
  775 006a 0A4A     		ldr	r2, .L61+4
  776 006c BB79     		ldrb	r3, [r7, #6]
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 23
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 23
 
 
  777 006e 1370     		strb	r3, [r2]
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  817              		.global	CySpcEraseSector
  818              		.thumb
  819              		.thumb_func
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 24
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 24
 
 
  820              		.type	CySpcEraseSector, %function
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  849 0020 19D0     		beq	.L64
  498:Generated_Source\PSoC5/CySpc.c ****     {
  499:Generated_Source\PSoC5/CySpc.c ****         CY_SPC_CPU_DATA_REG = CY_SPC_KEY_ONE;
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 25
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 25
 
 
  850              		.loc 1 499 0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  887              	.L67:
  517:Generated_Source\PSoC5/CySpc.c ****     }
  518:Generated_Source\PSoC5/CySpc.c **** 
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 26
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 26
 
 
  519:Generated_Source\PSoC5/CySpc.c ****     return(status);
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  544:Generated_Source\PSoC5/CySpc.c **** *******************************************************************************/
  545:Generated_Source\PSoC5/CySpc.c **** cystatus CySpcGetTemp(uint8 numSamples)
  546:Generated_Source\PSoC5/CySpc.c **** {
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 27
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 27
 
 
  917              		.loc 1 546 0
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  558:Generated_Source\PSoC5/CySpc.c ****         {
  559:Generated_Source\PSoC5/CySpc.c ****             CY_SPC_CPU_DATA_REG = numSamples;
  960              		.loc 1 559 0
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 28
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 28
 
 
  961 003c 084A     		ldr	r2, .L77+4
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1002              	CySpcLock:
  1003              	.LFB9:
  573:Generated_Source\PSoC5/CySpc.c **** 
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 29
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 29
 
 
  574:Generated_Source\PSoC5/CySpc.c **** 
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1034 0022 7B60     		str	r3, [r7, #4]
  598:Generated_Source\PSoC5/CySpc.c **** 
  599:Generated_Source\PSoC5/CySpc.c ****         #if(CY_PSOC5)
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 30
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 30
 
 
  600:Generated_Source\PSoC5/CySpc.c **** 
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1070 004a 1846     		mov	r0, r3
  1071 004c FFF7FEFF 		bl	CyExitCriticalSection
  619:Generated_Source\PSoC5/CySpc.c **** 
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 31
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 31
 
 
  620:Generated_Source\PSoC5/CySpc.c ****     return(status);
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  635:Generated_Source\PSoC5/CySpc.c ****     /* Enter critical section */
  636:Generated_Source\PSoC5/CySpc.c ****     interruptState = CyEnterCriticalSection();
  1111              		.loc 1 636 0
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 32
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 32
 
 
  1112 0006 FFF7FEFF 		bl	CyEnterCriticalSection
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1149 0032 1A60     		str	r2, [r3]
  1150              	.L85:
  654:Generated_Source\PSoC5/CySpc.c ****         }
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 33
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 33
 
 
  655:Generated_Source\PSoC5/CySpc.c **** 
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1185              		.cfi_def_cfa_offset 4
  1186              		.cfi_offset 7, -4
  1187 0002 83B0     		sub	sp, sp, #12
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 34
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 34
 
 
  1188              		.cfi_def_cfa_offset 16
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1226              		.cfi_def_cfa_register 13
  1227              		@ sp needed
  1228 0038 5DF8047B 		ldr	r7, [sp], #4
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 35
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 35
 
 
  1229              		.cfi_restore 7
@@ -2062,25 +2062,25 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1247 0006 00000000 		.4byte	.Ldebug_abbrev0
  1248 000a 04       		.byte	0x4
  1249 000b 01       		.uleb128 0x1
- 1250 000c 1B010000 		.4byte	.LASF43
+ 1250 000c DD000000 		.4byte	.LASF43
  1251 0010 01       		.byte	0x1
- 1252 0011 D5010000 		.4byte	.LASF44
- 1253 0015 6D000000 		.4byte	.LASF45
+ 1252 0011 97010000 		.4byte	.LASF44
+ 1253 0015 A5020000 		.4byte	.LASF45
  1254 0019 00000000 		.4byte	.Ldebug_ranges0+0
  1255 001d 00000000 		.4byte	0
  1256 0021 00000000 		.4byte	.Ldebug_line0
  1257 0025 02       		.uleb128 0x2
  1258 0026 01       		.byte	0x1
  1259 0027 06       		.byte	0x6
- 1260 0028 C6020000 		.4byte	.LASF0
+ 1260 0028 88020000 		.4byte	.LASF0
  1261 002c 02       		.uleb128 0x2
  1262 002d 01       		.byte	0x1
  1263 002e 08       		.byte	0x8
- 1264 002f 0D010000 		.4byte	.LASF1
+ 1264 002f CF000000 		.4byte	.LASF1
  1265 0033 02       		.uleb128 0x2
  1266 0034 02       		.byte	0x2
  1267 0035 05       		.byte	0x5
- 1268 0036 8D020000 		.4byte	.LASF2
+ 1268 0036 4F020000 		.4byte	.LASF2
  1269 003a 02       		.uleb128 0x2
  1270 003b 02       		.byte	0x2
  1271 003c 07       		.byte	0x7
@@ -2088,22 +2088,22 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1273 0041 02       		.uleb128 0x2
  1274 0042 04       		.byte	0x4
  1275 0043 05       		.byte	0x5
- 1276 0044 AB020000 		.4byte	.LASF4
+ 1276 0044 6D020000 		.4byte	.LASF4
  1277 0048 02       		.uleb128 0x2
  1278 0049 04       		.byte	0x4
  1279 004a 07       		.byte	0x7
- 1280 004b D5000000 		.4byte	.LASF5
+ 1280 004b 97000000 		.4byte	.LASF5
  1281 004f 02       		.uleb128 0x2
  1282 0050 08       		.byte	0x8
  1283 0051 05       		.byte	0x5
- 1284 0052 61020000 		.4byte	.LASF6
+ 1284 0052 23020000 		.4byte	.LASF6
  1285 0056 02       		.uleb128 0x2
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 36
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 36
 
 
  1286 0057 08       		.byte	0x8
  1287 0058 07       		.byte	0x7
- 1288 0059 09020000 		.4byte	.LASF7
+ 1288 0059 CB010000 		.4byte	.LASF7
  1289 005d 03       		.uleb128 0x3
  1290 005e 04       		.byte	0x4
  1291 005f 05       		.byte	0x5
@@ -2111,41 +2111,41 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1293 0064 02       		.uleb128 0x2
  1294 0065 04       		.byte	0x4
  1295 0066 07       		.byte	0x7
- 1296 0067 F4010000 		.4byte	.LASF8
+ 1296 0067 B6010000 		.4byte	.LASF8
  1297 006b 04       		.uleb128 0x4
- 1298 006c E7000000 		.4byte	.LASF9
+ 1298 006c A9000000 		.4byte	.LASF9
  1299 0070 02       		.byte	0x2
  1300 0071 9201     		.2byte	0x192
  1301 0073 2C000000 		.4byte	0x2c
  1302 0077 04       		.uleb128 0x4
- 1303 0078 BD010000 		.4byte	.LASF10
+ 1303 0078 7F010000 		.4byte	.LASF10
  1304 007c 02       		.byte	0x2
  1305 007d 9301     		.2byte	0x193
  1306 007f 3A000000 		.4byte	0x3a
  1307 0083 04       		.uleb128 0x4
- 1308 0084 CE010000 		.4byte	.LASF11
+ 1308 0084 90010000 		.4byte	.LASF11
  1309 0088 02       		.byte	0x2
  1310 0089 9401     		.2byte	0x194
  1311 008b 48000000 		.4byte	0x48
  1312 008f 02       		.uleb128 0x2
  1313 0090 04       		.byte	0x4
  1314 0091 04       		.byte	0x4
- 1315 0092 B6000000 		.4byte	.LASF12
+ 1315 0092 6D000000 		.4byte	.LASF12
  1316 0096 02       		.uleb128 0x2
  1317 0097 08       		.byte	0x8
  1318 0098 04       		.byte	0x4
- 1319 0099 A9010000 		.4byte	.LASF13
+ 1319 0099 6B010000 		.4byte	.LASF13
  1320 009d 02       		.uleb128 0x2
  1321 009e 01       		.byte	0x1
  1322 009f 08       		.byte	0x8
- 1323 00a0 6F020000 		.4byte	.LASF14
+ 1323 00a0 31020000 		.4byte	.LASF14
  1324 00a4 04       		.uleb128 0x4
  1325 00a5 13000000 		.4byte	.LASF15
  1326 00a9 02       		.byte	0x2
  1327 00aa 3402     		.2byte	0x234
  1328 00ac 48000000 		.4byte	0x48
  1329 00b0 04       		.uleb128 0x4
- 1330 00b1 C1000000 		.4byte	.LASF16
+ 1330 00b1 83000000 		.4byte	.LASF16
  1331 00b5 02       		.byte	0x2
  1332 00b6 3C02     		.2byte	0x23c
  1333 00b8 BC000000 		.4byte	0xbc
@@ -2158,13 +2158,13 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1340 00c9 CD000000 		.4byte	0xcd
  1341 00cd 05       		.uleb128 0x5
  1342 00ce 83000000 		.4byte	0x83
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 37
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 37
 
 
  1343 00d2 02       		.uleb128 0x2
  1344 00d3 04       		.byte	0x4
  1345 00d4 07       		.byte	0x7
- 1346 00d5 3B020000 		.4byte	.LASF18
+ 1346 00d5 FD010000 		.4byte	.LASF18
  1347 00d9 06       		.uleb128 0x6
  1348 00da 22000000 		.4byte	.LASF19
  1349 00de 01       		.byte	0x1
@@ -2175,7 +2175,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1354 00e9 9C       		.byte	0x9c
  1355 00ea FD000000 		.4byte	0xfd
  1356 00ee 07       		.uleb128 0x7
- 1357 00ef C6000000 		.4byte	.LASF21
+ 1357 00ef 88000000 		.4byte	.LASF21
  1358 00f3 01       		.byte	0x1
  1359 00f4 4A       		.byte	0x4a
  1360 00f5 6B000000 		.4byte	0x6b
@@ -2193,7 +2193,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1372 010d 9C       		.byte	0x9c
  1373 010e 21010000 		.4byte	0x121
  1374 0112 07       		.uleb128 0x7
- 1375 0113 C6000000 		.4byte	.LASF21
+ 1375 0113 88000000 		.4byte	.LASF21
  1376 0117 01       		.byte	0x1
  1377 0118 5D       		.byte	0x5d
  1378 0119 6B000000 		.4byte	0x6b
@@ -2212,18 +2212,18 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1391 0135 9C       		.byte	0x9c
  1392 0136 63010000 		.4byte	0x163
  1393 013a 09       		.uleb128 0x9
- 1394 013b 97020000 		.4byte	.LASF22
+ 1394 013b 59020000 		.4byte	.LASF22
  1395 013f 01       		.byte	0x1
  1396 0140 77       		.byte	0x77
  1397 0141 63010000 		.4byte	0x163
  1398 0145 02       		.uleb128 0x2
  1399 0146 91       		.byte	0x91
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 38
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 38
 
 
  1400 0147 6C       		.sleb128 -20
  1401 0148 09       		.uleb128 0x9
- 1402 0149 BC000000 		.4byte	.LASF23
+ 1402 0149 7E000000 		.4byte	.LASF23
  1403 014d 01       		.byte	0x1
  1404 014e 77       		.byte	0x77
  1405 014f 6B000000 		.4byte	0x6b
@@ -2253,7 +2253,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1429 017d 9C       		.byte	0x9c
  1430 017e D5010000 		.4byte	0x1d5
  1431 0182 09       		.uleb128 0x9
- 1432 0183 07010000 		.4byte	.LASF26
+ 1432 0183 C9000000 		.4byte	.LASF26
  1433 0187 01       		.byte	0x1
  1434 0188 A0       		.byte	0xa0
  1435 0189 6B000000 		.4byte	0x6b
@@ -2261,7 +2261,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1437 018e 91       		.byte	0x91
  1438 018f 6F       		.sleb128 -17
  1439 0190 09       		.uleb128 0x9
- 1440 0191 01020000 		.4byte	.LASF27
+ 1440 0191 C3010000 		.4byte	.LASF27
  1441 0195 01       		.byte	0x1
  1442 0196 A0       		.byte	0xa0
  1443 0197 77000000 		.4byte	0x77
@@ -2269,7 +2269,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1445 019c 91       		.byte	0x91
  1446 019d 6C       		.sleb128 -20
  1447 019e 09       		.uleb128 0x9
- 1448 019f 97020000 		.4byte	.LASF22
+ 1448 019f 59020000 		.4byte	.LASF22
  1449 01a3 01       		.byte	0x1
  1450 01a4 A0       		.byte	0xa0
  1451 01a5 D5010000 		.4byte	0x1d5
@@ -2277,8 +2277,8 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1453 01aa 91       		.byte	0x91
  1454 01ab 68       		.sleb128 -24
  1455 01ac 09       		.uleb128 0x9
- 1456 01ad BC000000 		.4byte	.LASF23
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 39
+ 1456 01ad 7E000000 		.4byte	.LASF23
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 39
 
 
  1457 01b1 01       		.byte	0x1
@@ -2310,7 +2310,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1483 01db 0D       		.uleb128 0xd
  1484 01dc 6B000000 		.4byte	0x6b
  1485 01e0 0C       		.uleb128 0xc
- 1486 01e1 2E020000 		.4byte	.LASF29
+ 1486 01e1 F0010000 		.4byte	.LASF29
  1487 01e5 01       		.byte	0x1
  1488 01e6 EE       		.byte	0xee
  1489 01e7 A4000000 		.4byte	0xa4
@@ -2320,7 +2320,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1493 01f4 9C       		.byte	0x9c
  1494 01f5 3E020000 		.4byte	0x23e
  1495 01f9 09       		.uleb128 0x9
- 1496 01fa 07010000 		.4byte	.LASF26
+ 1496 01fa C9000000 		.4byte	.LASF26
  1497 01fe 01       		.byte	0x1
  1498 01ff EE       		.byte	0xee
  1499 0200 6B000000 		.4byte	0x6b
@@ -2328,7 +2328,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1501 0205 91       		.byte	0x91
  1502 0206 6F       		.sleb128 -17
  1503 0207 09       		.uleb128 0x9
- 1504 0208 97020000 		.4byte	.LASF22
+ 1504 0208 59020000 		.4byte	.LASF22
  1505 020c 01       		.byte	0x1
  1506 020d EE       		.byte	0xee
  1507 020e D5010000 		.4byte	0x1d5
@@ -2336,9 +2336,9 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1509 0213 91       		.byte	0x91
  1510 0214 68       		.sleb128 -24
  1511 0215 09       		.uleb128 0x9
- 1512 0216 BC000000 		.4byte	.LASF23
+ 1512 0216 7E000000 		.4byte	.LASF23
  1513 021a 01       		.byte	0x1
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 40
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 40
 
 
  1514 021b EE       		.byte	0xee
@@ -2364,7 +2364,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1534 023c 72       		.sleb128 -14
  1535 023d 00       		.byte	0
  1536 023e 0E       		.uleb128 0xe
- 1537 023f D2020000 		.4byte	.LASF30
+ 1537 023f 94020000 		.4byte	.LASF30
  1538 0243 01       		.byte	0x1
  1539 0244 3001     		.2byte	0x130
  1540 0246 A4000000 		.4byte	0xa4
@@ -2374,7 +2374,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1544 0253 9C       		.byte	0x9c
  1545 0254 C0020000 		.4byte	0x2c0
  1546 0258 0F       		.uleb128 0xf
- 1547 0259 07010000 		.4byte	.LASF26
+ 1547 0259 C9000000 		.4byte	.LASF26
  1548 025d 01       		.byte	0x1
  1549 025e 3001     		.2byte	0x130
  1550 0260 6B000000 		.4byte	0x6b
@@ -2390,7 +2390,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1560 0274 91       		.byte	0x91
  1561 0275 64       		.sleb128 -28
  1562 0276 0F       		.uleb128 0xf
- 1563 0277 97020000 		.4byte	.LASF22
+ 1563 0277 59020000 		.4byte	.LASF22
  1564 027b 01       		.byte	0x1
  1565 027c 3001     		.2byte	0x130
  1566 027e D5010000 		.4byte	0x1d5
@@ -2398,10 +2398,10 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1568 0283 91       		.byte	0x91
  1569 0284 60       		.sleb128 -32
  1570 0285 0F       		.uleb128 0xf
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 41
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 41
 
 
- 1571 0286 BC000000 		.4byte	.LASF23
+ 1571 0286 7E000000 		.4byte	.LASF23
  1572 028a 01       		.byte	0x1
  1573 028b 3001     		.2byte	0x130
  1574 028d 77000000 		.4byte	0x77
@@ -2425,7 +2425,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1592 02ae 91       		.byte	0x91
  1593 02af 72       		.sleb128 -14
  1594 02b0 11       		.uleb128 0x11
- 1595 02b1 86020000 		.4byte	.LASF31
+ 1595 02b1 48020000 		.4byte	.LASF31
  1596 02b5 01       		.byte	0x1
  1597 02b6 3701     		.2byte	0x137
  1598 02b8 83000000 		.4byte	0x83
@@ -2444,7 +2444,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1611 02d5 9C       		.byte	0x9c
  1612 02d6 26030000 		.4byte	0x326
  1613 02da 0F       		.uleb128 0xf
- 1614 02db 07010000 		.4byte	.LASF26
+ 1614 02db C9000000 		.4byte	.LASF26
  1615 02df 01       		.byte	0x1
  1616 02e0 B801     		.2byte	0x1b8
  1617 02e2 6B000000 		.4byte	0x6b
@@ -2452,18 +2452,18 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1619 02e7 91       		.byte	0x91
  1620 02e8 6F       		.sleb128 -17
  1621 02e9 0F       		.uleb128 0xf
- 1622 02ea 01020000 		.4byte	.LASF27
+ 1622 02ea C3010000 		.4byte	.LASF27
  1623 02ee 01       		.byte	0x1
  1624 02ef B801     		.2byte	0x1b8
  1625 02f1 77000000 		.4byte	0x77
  1626 02f5 02       		.uleb128 0x2
  1627 02f6 91       		.byte	0x91
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 42
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 42
 
 
  1628 02f7 6C       		.sleb128 -20
  1629 02f8 0F       		.uleb128 0xf
- 1630 02f9 FA000000 		.4byte	.LASF33
+ 1630 02f9 BC000000 		.4byte	.LASF33
  1631 02fd 01       		.byte	0x1
  1632 02fe B801     		.2byte	0x1b8
  1633 0300 6B000000 		.4byte	0x6b
@@ -2471,7 +2471,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1635 0305 91       		.byte	0x91
  1636 0306 6E       		.sleb128 -18
  1637 0307 0F       		.uleb128 0xf
- 1638 0308 20020000 		.4byte	.LASF34
+ 1638 0308 E2010000 		.4byte	.LASF34
  1639 030c 01       		.byte	0x1
  1640 030d B801     		.2byte	0x1b8
  1641 030f 6B000000 		.4byte	0x6b
@@ -2488,7 +2488,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1652 0324 74       		.sleb128 -12
  1653 0325 00       		.byte	0
  1654 0326 0E       		.uleb128 0xe
- 1655 0327 50020000 		.4byte	.LASF35
+ 1655 0327 12020000 		.4byte	.LASF35
  1656 032b 01       		.byte	0x1
  1657 032c EC01     		.2byte	0x1ec
  1658 032e A4000000 		.4byte	0xa4
@@ -2498,7 +2498,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1662 033b 9C       		.byte	0x9c
  1663 033c 6E030000 		.4byte	0x36e
  1664 0340 0F       		.uleb128 0xf
- 1665 0341 07010000 		.4byte	.LASF26
+ 1665 0341 C9000000 		.4byte	.LASF26
  1666 0345 01       		.byte	0x1
  1667 0346 EC01     		.2byte	0x1ec
  1668 0348 6B000000 		.4byte	0x6b
@@ -2506,7 +2506,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1670 034d 91       		.byte	0x91
  1671 034e 6F       		.sleb128 -17
  1672 034f 0F       		.uleb128 0xf
- 1673 0350 9E020000 		.4byte	.LASF36
+ 1673 0350 60020000 		.4byte	.LASF36
  1674 0354 01       		.byte	0x1
  1675 0355 EC01     		.2byte	0x1ec
  1676 0357 6B000000 		.4byte	0x6b
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1682 0363 01       		.byte	0x1
  1683 0364 EE01     		.2byte	0x1ee
  1684 0366 A4000000 		.4byte	0xa4
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 43
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 43
 
 
  1685 036a 02       		.uleb128 0x2
@@ -2526,7 +2526,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1687 036c 74       		.sleb128 -12
  1688 036d 00       		.byte	0
  1689 036e 0E       		.uleb128 0xe
- 1690 036f B0010000 		.4byte	.LASF37
+ 1690 036f 72010000 		.4byte	.LASF37
  1691 0373 01       		.byte	0x1
  1692 0374 2102     		.2byte	0x221
  1693 0376 A4000000 		.4byte	0xa4
@@ -2536,7 +2536,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1697 0383 9C       		.byte	0x9c
  1698 0384 A7030000 		.4byte	0x3a7
  1699 0388 0F       		.uleb128 0xf
- 1700 0389 E3020000 		.4byte	.LASF38
+ 1700 0389 73000000 		.4byte	.LASF38
  1701 038d 01       		.byte	0x1
  1702 038e 2102     		.2byte	0x221
  1703 0390 6B000000 		.4byte	0x6b
@@ -2553,7 +2553,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1714 03a5 74       		.sleb128 -12
  1715 03a6 00       		.byte	0
  1716 03a7 13       		.uleb128 0x13
- 1717 03a8 C4010000 		.4byte	.LASF39
+ 1717 03a8 86010000 		.4byte	.LASF39
  1718 03ac 01       		.byte	0x1
  1719 03ad 4A02     		.2byte	0x24a
  1720 03af A4000000 		.4byte	0xa4
@@ -2571,19 +2571,19 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1732 03ce 91       		.byte	0x91
  1733 03cf 74       		.sleb128 -12
  1734 03d0 11       		.uleb128 0x11
- 1735 03d1 C6000000 		.4byte	.LASF21
+ 1735 03d1 88000000 		.4byte	.LASF21
  1736 03d5 01       		.byte	0x1
  1737 03d6 4D02     		.2byte	0x24d
  1738 03d8 6B000000 		.4byte	0x6b
  1739 03dc 02       		.uleb128 0x2
  1740 03dd 91       		.byte	0x91
  1741 03de 73       		.sleb128 -13
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 44
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 44
 
 
  1742 03df 00       		.byte	0
  1743 03e0 14       		.uleb128 0x14
- 1744 03e1 44020000 		.4byte	.LASF40
+ 1744 03e1 06020000 		.4byte	.LASF40
  1745 03e5 01       		.byte	0x1
  1746 03e6 7702     		.2byte	0x277
  1747 03e8 00000000 		.4byte	.LFB10
@@ -2592,7 +2592,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1750 03f1 9C       		.byte	0x9c
  1751 03f2 06040000 		.4byte	0x406
  1752 03f6 11       		.uleb128 0x11
- 1753 03f7 C6000000 		.4byte	.LASF21
+ 1753 03f7 88000000 		.4byte	.LASF21
  1754 03fb 01       		.byte	0x1
  1755 03fc 7902     		.2byte	0x279
  1756 03fe 6B000000 		.4byte	0x6b
@@ -2601,7 +2601,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1759 0404 77       		.sleb128 -9
  1760 0405 00       		.byte	0
  1761 0406 0E       		.uleb128 0xe
- 1762 0407 74020000 		.4byte	.LASF41
+ 1762 0407 36020000 		.4byte	.LASF41
  1763 040b 01       		.byte	0x1
  1764 040c A102     		.2byte	0x2a1
  1765 040e A4000000 		.4byte	0xa4
@@ -2620,7 +2620,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1778 042e 74       		.sleb128 -12
  1779 042f 00       		.byte	0
  1780 0430 07       		.uleb128 0x7
- 1781 0431 B4020000 		.4byte	.LASF42
+ 1781 0431 76020000 		.4byte	.LASF42
  1782 0435 01       		.byte	0x1
  1783 0436 3C       		.byte	0x3c
  1784 0437 83000000 		.4byte	0x83
@@ -2628,7 +2628,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1786 043c 03       		.byte	0x3
  1787 043d 04000000 		.4byte	spcWaitPipeBypass
  1788 0441 15       		.uleb128 0x15
- 1789 0442 ED000000 		.4byte	.LASF46
+ 1789 0442 AF000000 		.4byte	.LASF46
  1790 0446 01       		.byte	0x1
  1791 0447 30       		.byte	0x30
  1792 0448 6B000000 		.4byte	0x6b
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1796 0452 00       		.byte	0
  1797              		.section	.debug_abbrev,"",%progbits
  1798              	.Ldebug_abbrev0:
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 45
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 45
 
 
  1799 0000 01       		.uleb128 0x1
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1853 0036 05       		.uleb128 0x5
  1854 0037 35       		.uleb128 0x35
  1855 0038 00       		.byte	0
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 46
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 46
 
 
  1856 0039 49       		.uleb128 0x49
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1910 0070 0B       		.uleb128 0xb
  1911 0071 27       		.uleb128 0x27
  1912 0072 19       		.uleb128 0x19
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 47
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 47
 
 
  1913 0073 49       		.uleb128 0x49
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  1967 00aa 2E       		.uleb128 0x2e
  1968 00ab 01       		.byte	0x1
  1969 00ac 3F       		.uleb128 0x3f
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 48
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 48
 
 
  1970 00ad 19       		.uleb128 0x19
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  2024 00e5 13       		.uleb128 0x13
  2025 00e6 00       		.byte	0
  2026 00e7 00       		.byte	0
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 49
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 49
 
 
  2027 00e8 0F       		.uleb128 0xf
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  2081 011e 49       		.uleb128 0x49
  2082 011f 13       		.uleb128 0x13
  2083 0120 02       		.uleb128 0x2
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 50
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 50
 
 
  2084 0121 18       		.uleb128 0x18
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  2138 0159 00       		.byte	0
  2139 015a 15       		.uleb128 0x15
  2140 015b 34       		.uleb128 0x34
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 51
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 51
 
 
  2141 015c 00       		.byte	0
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  2195 0008 00000000 		.4byte	.LFB1
  2196 000c 44000000 		.4byte	.LFE1
  2197 0010 00000000 		.4byte	.LFB2
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 52
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 52
 
 
  2198 0014 58000000 		.4byte	.LFE2
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  2234              	.LASF3:
  2235 0045 73686F72 		.ascii	"short unsigned int\000"
  2235      7420756E 
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 53
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 53
 
 
  2235      7369676E 
@@ -3132,196 +3132,196 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 1
  2238              	.LASF28:
  2239 0066 73746174 		.ascii	"status\000"
  2239      757300
- 2240              	.LASF45:
- 2241 006d 433A5C55 		.ascii	"C:\\Users\\labadmin\\Documents\\PSoC Creator\\USBFS"
- 2241      73657273 
- 2241      5C6C6162 
- 2241      61646D69 
- 2241      6E5C446F 
- 2242 009b 5F554152 		.ascii	"_UART01\\USBFS_UART01.cydsn\000"
- 2242      5430315C 
- 2242      55534246 
- 2242      535F5541 
- 2242      52543031 
- 2243              	.LASF12:
- 2244 00b6 666C6F61 		.ascii	"float\000"
- 2244      7400
- 2245              	.LASF23:
- 2246 00bc 73697A65 		.ascii	"size\000"
- 2246      00
- 2247              	.LASF16:
- 2248 00c1 72656738 		.ascii	"reg8\000"
- 2248      00
- 2249              	.LASF21:
- 2250 00c6 696E7465 		.ascii	"interruptState\000"
- 2250      72727570 
- 2250      74537461 
- 2250      746500
- 2251              	.LASF5:
- 2252 00d5 6C6F6E67 		.ascii	"long unsigned int\000"
- 2252      20756E73 
- 2252      69676E65 
- 2252      6420696E 
- 2252      7400
- 2253              	.LASF9:
- 2254 00e7 75696E74 		.ascii	"uint8\000"
- 2254      3800
- 2255              	.LASF46:
- 2256 00ed 5370634C 		.ascii	"SpcLockState\000"
- 2256      6F636B53 
- 2256      74617465 
- 2256      00
- 2257              	.LASF33:
- 2258 00fa 74656D70 		.ascii	"tempPolarity\000"
- 2258      506F6C61 
- 2258      72697479 
- 2258      00
- 2259              	.LASF26:
- 2260 0107 61727261 		.ascii	"array\000"
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 54
+ 2240              	.LASF12:
+ 2241 006d 666C6F61 		.ascii	"float\000"
+ 2241      7400
+ 2242              	.LASF38:
+ 2243 0073 6E756D53 		.ascii	"numSamples\000"
+ 2243      616D706C 
+ 2243      657300
+ 2244              	.LASF23:
+ 2245 007e 73697A65 		.ascii	"size\000"
+ 2245      00
+ 2246              	.LASF16:
+ 2247 0083 72656738 		.ascii	"reg8\000"
+ 2247      00
+ 2248              	.LASF21:
+ 2249 0088 696E7465 		.ascii	"interruptState\000"
+ 2249      72727570 
+ 2249      74537461 
+ 2249      746500
+ 2250              	.LASF5:
+ 2251 0097 6C6F6E67 		.ascii	"long unsigned int\000"
+ 2251      20756E73 
+ 2251      69676E65 
+ 2251      6420696E 
+ 2251      7400
+ 2252              	.LASF9:
+ 2253 00a9 75696E74 		.ascii	"uint8\000"
+ 2253      3800
+ 2254              	.LASF46:
+ 2255 00af 5370634C 		.ascii	"SpcLockState\000"
+ 2255      6F636B53 
+ 2255      74617465 
+ 2255      00
+ 2256              	.LASF33:
+ 2257 00bc 74656D70 		.ascii	"tempPolarity\000"
+ 2257      506F6C61 
+ 2257      72697479 
+ 2257      00
+ 2258              	.LASF26:
+ 2259 00c9 61727261 		.ascii	"array\000"
+ 2259      7900
+ 2260              	.LASF1:
+ 2261 00cf 756E7369 		.ascii	"unsigned char\000"
+ 2261      676E6564 
+ 2261      20636861 
+ 2261      7200
+ 2262              	.LASF43:
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 54
 
 
- 2260      7900
- 2261              	.LASF1:
- 2262 010d 756E7369 		.ascii	"unsigned char\000"
- 2262      676E6564 
- 2262      20636861 
- 2262      7200
- 2263              	.LASF43:
- 2264 011b 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 2264      4320342E 
- 2264      392E3320 
- 2264      32303135 
- 2264      30333033 
- 2265 014e 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m3 -mthumb -g -O"
- 2265      20726576 
- 2265      6973696F 
- 2265      6E203232 
- 2265      31323230 
- 2266 0181 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 2266      66756E63 
- 2266      74696F6E 
- 2266      2D736563 
- 2266      74696F6E 
- 2267              	.LASF13:
- 2268 01a9 646F7562 		.ascii	"double\000"
- 2268      6C6500
- 2269              	.LASF37:
- 2270 01b0 43795370 		.ascii	"CySpcGetTemp\000"
- 2270      63476574 
- 2270      54656D70 
- 2270      00
- 2271              	.LASF10:
- 2272 01bd 75696E74 		.ascii	"uint16\000"
- 2272      313600
- 2273              	.LASF39:
- 2274 01c4 43795370 		.ascii	"CySpcLock\000"
- 2274      634C6F63 
- 2274      6B00
- 2275              	.LASF11:
- 2276 01ce 75696E74 		.ascii	"uint32\000"
- 2276      333200
- 2277              	.LASF44:
- 2278 01d5 47656E65 		.ascii	"Generated_Source\\PSoC5\\CySpc.c\000"
- 2278      72617465 
- 2278      645F536F 
- 2278      75726365 
- 2278      5C50536F 
- 2279              	.LASF8:
- 2280 01f4 756E7369 		.ascii	"unsigned int\000"
- 2280      676E6564 
- 2280      20696E74 
- 2280      00
- 2281              	.LASF27:
- 2282 0201 61646472 		.ascii	"address\000"
- 2282      65737300 
- 2283              	.LASF7:
- 2284 0209 6C6F6E67 		.ascii	"long long unsigned int\000"
- 2284      206C6F6E 
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 55
+ 2263 00dd 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 2263      4320342E 
+ 2263      392E3320 
+ 2263      32303135 
+ 2263      30333033 
+ 2264 0110 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m3 -mthumb -g -O"
+ 2264      20726576 
+ 2264      6973696F 
+ 2264      6E203232 
+ 2264      31323230 
+ 2265 0143 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 2265      66756E63 
+ 2265      74696F6E 
+ 2265      2D736563 
+ 2265      74696F6E 
+ 2266              	.LASF13:
+ 2267 016b 646F7562 		.ascii	"double\000"
+ 2267      6C6500
+ 2268              	.LASF37:
+ 2269 0172 43795370 		.ascii	"CySpcGetTemp\000"
+ 2269      63476574 
+ 2269      54656D70 
+ 2269      00
+ 2270              	.LASF10:
+ 2271 017f 75696E74 		.ascii	"uint16\000"
+ 2271      313600
+ 2272              	.LASF39:
+ 2273 0186 43795370 		.ascii	"CySpcLock\000"
+ 2273      634C6F63 
+ 2273      6B00
+ 2274              	.LASF11:
+ 2275 0190 75696E74 		.ascii	"uint32\000"
+ 2275      333200
+ 2276              	.LASF44:
+ 2277 0197 47656E65 		.ascii	"Generated_Source\\PSoC5\\CySpc.c\000"
+ 2277      72617465 
+ 2277      645F536F 
+ 2277      75726365 
+ 2277      5C50536F 
+ 2278              	.LASF8:
+ 2279 01b6 756E7369 		.ascii	"unsigned int\000"
+ 2279      676E6564 
+ 2279      20696E74 
+ 2279      00
+ 2280              	.LASF27:
+ 2281 01c3 61646472 		.ascii	"address\000"
+ 2281      65737300 
+ 2282              	.LASF7:
+ 2283 01cb 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 2283      206C6F6E 
+ 2283      6720756E 
+ 2283      7369676E 
+ 2283      65642069 
+ 2284              	.LASF34:
+ 2285 01e2 74656D70 		.ascii	"tempMagnitude\000"
+ 2285      4D61676E 
+ 2285      69747564 
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 55
 
 
- 2284      6720756E 
- 2284      7369676E 
- 2284      65642069 
- 2285              	.LASF34:
- 2286 0220 74656D70 		.ascii	"tempMagnitude\000"
- 2286      4D61676E 
- 2286      69747564 
- 2286      6500
- 2287              	.LASF29:
- 2288 022e 43795370 		.ascii	"CySpcLoadRow\000"
- 2288      634C6F61 
- 2288      64526F77 
- 2288      00
- 2289              	.LASF18:
- 2290 023b 73697A65 		.ascii	"sizetype\000"
- 2290      74797065 
- 2290      00
- 2291              	.LASF40:
- 2292 0244 43795370 		.ascii	"CySpcUnlock\000"
- 2292      63556E6C 
- 2292      6F636B00 
- 2293              	.LASF35:
- 2294 0250 43795370 		.ascii	"CySpcEraseSector\000"
- 2294      63457261 
- 2294      73655365 
- 2294      63746F72 
- 2294      00
- 2295              	.LASF6:
- 2296 0261 6C6F6E67 		.ascii	"long long int\000"
- 2296      206C6F6E 
- 2296      6720696E 
- 2296      7400
- 2297              	.LASF14:
- 2298 026f 63686172 		.ascii	"char\000"
- 2298      00
- 2299              	.LASF41:
- 2300 0274 43795370 		.ascii	"CySpcGetAlgorithm\000"
- 2300      63476574 
- 2300      416C676F 
- 2300      72697468 
- 2300      6D00
- 2301              	.LASF31:
- 2302 0286 6F666673 		.ascii	"offset\000"
- 2302      657400
- 2303              	.LASF2:
- 2304 028d 73686F72 		.ascii	"short int\000"
- 2304      7420696E 
- 2304      7400
- 2305              	.LASF22:
- 2306 0297 62756666 		.ascii	"buffer\000"
- 2306      657200
- 2307              	.LASF36:
- 2308 029e 73656374 		.ascii	"sectorNumber\000"
- 2308      6F724E75 
- 2308      6D626572 
- 2308      00
- 2309              	.LASF4:
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccsJTP2h.s 			page 56
+ 2285      6500
+ 2286              	.LASF29:
+ 2287 01f0 43795370 		.ascii	"CySpcLoadRow\000"
+ 2287      634C6F61 
+ 2287      64526F77 
+ 2287      00
+ 2288              	.LASF18:
+ 2289 01fd 73697A65 		.ascii	"sizetype\000"
+ 2289      74797065 
+ 2289      00
+ 2290              	.LASF40:
+ 2291 0206 43795370 		.ascii	"CySpcUnlock\000"
+ 2291      63556E6C 
+ 2291      6F636B00 
+ 2292              	.LASF35:
+ 2293 0212 43795370 		.ascii	"CySpcEraseSector\000"
+ 2293      63457261 
+ 2293      73655365 
+ 2293      63746F72 
+ 2293      00
+ 2294              	.LASF6:
+ 2295 0223 6C6F6E67 		.ascii	"long long int\000"
+ 2295      206C6F6E 
+ 2295      6720696E 
+ 2295      7400
+ 2296              	.LASF14:
+ 2297 0231 63686172 		.ascii	"char\000"
+ 2297      00
+ 2298              	.LASF41:
+ 2299 0236 43795370 		.ascii	"CySpcGetAlgorithm\000"
+ 2299      63476574 
+ 2299      416C676F 
+ 2299      72697468 
+ 2299      6D00
+ 2300              	.LASF31:
+ 2301 0248 6F666673 		.ascii	"offset\000"
+ 2301      657400
+ 2302              	.LASF2:
+ 2303 024f 73686F72 		.ascii	"short int\000"
+ 2303      7420696E 
+ 2303      7400
+ 2304              	.LASF22:
+ 2305 0259 62756666 		.ascii	"buffer\000"
+ 2305      657200
+ 2306              	.LASF36:
+ 2307 0260 73656374 		.ascii	"sectorNumber\000"
+ 2307      6F724E75 
+ 2307      6D626572 
+ 2307      00
+ 2308              	.LASF4:
+ 2309 026d 6C6F6E67 		.ascii	"long int\000"
+ 2309      20696E74 
+ 2309      00
+ 2310              	.LASF42:
+ 2311 0276 73706357 		.ascii	"spcWaitPipeBypass\000"
+ 2311      61697450 
+ 2311      69706542 
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccKhlCRi.s 			page 56
 
 
- 2310 02ab 6C6F6E67 		.ascii	"long int\000"
- 2310      20696E74 
- 2310      00
- 2311              	.LASF42:
- 2312 02b4 73706357 		.ascii	"spcWaitPipeBypass\000"
- 2312      61697450 
- 2312      69706542 
- 2312      79706173 
- 2312      7300
- 2313              	.LASF0:
- 2314 02c6 7369676E 		.ascii	"signed char\000"
- 2314      65642063 
- 2314      68617200 
- 2315              	.LASF30:
- 2316 02d2 43795370 		.ascii	"CySpcLoadRowFull\000"
- 2316      634C6F61 
- 2316      64526F77 
- 2316      46756C6C 
- 2316      00
- 2317              	.LASF38:
- 2318 02e3 6E756D53 		.ascii	"numSamples\000"
- 2318      616D706C 
- 2318      657300
+ 2311      79706173 
+ 2311      7300
+ 2312              	.LASF0:
+ 2313 0288 7369676E 		.ascii	"signed char\000"
+ 2313      65642063 
+ 2313      68617200 
+ 2314              	.LASF30:
+ 2315 0294 43795370 		.ascii	"CySpcLoadRowFull\000"
+ 2315      634C6F61 
+ 2315      64526F77 
+ 2315      46756C6C 
+ 2315      00
+ 2316              	.LASF45:
+ 2317 02a5 433A5C55 		.ascii	"C:\\Users\\labadmin\\Documents\\GitHub\\CY8CKITDAC\\"
+ 2317      73657273 
+ 2317      5C6C6162 
+ 2317      61646D69 
+ 2317      6E5C446F 
+ 2318 02d3 55534246 		.ascii	"USBFS_UART01.cydsn\000"
+ 2318      535F5541 
+ 2318      52543031 
+ 2318      2E637964 
+ 2318      736E00
  2319              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

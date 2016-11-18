@@ -77,6 +77,17 @@ int main()
     LCD_Start();
 #endif /* (CY_PSOC3 || CY_PSOC5LP) */
     
+    /* Start VDAC */
+    VDAC8_1_Start();
+    VDAC8_2_Start();
+    VDAC8_3_Start();
+    VDAC8_4_Start();
+    /* Set the value 200 in VDAC data register */
+    VDAC8_1_SetValue(0u);
+    VDAC8_2_SetValue(50u);
+    VDAC8_3_SetValue(100u);
+    VDAC8_4_SetValue(200u);
+
     CyGlobalIntEnable;
 
     /* Start USBFS operation with 5-V operation. */
@@ -114,6 +125,8 @@ int main()
 
                     /* Send data back to host. */
                     USBUART_PutData(buffer, count);
+                    
+                    //(val+2/255)*1.020 = V 
                     
                     /* Clear LCD line.*/ 
                     LCD_Position(1u, 0u);

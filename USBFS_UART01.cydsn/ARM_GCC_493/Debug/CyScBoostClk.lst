@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
   29:Generated_Source\PSoC5/CyScBoostClk.c **** 
   30:Generated_Source\PSoC5/CyScBoostClk.c **** /*******************************************************************************
   31:Generated_Source\PSoC5/CyScBoostClk.c **** * Function Name: CyScBoostClk_Start
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 2
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 2
 
 
   32:Generated_Source\PSoC5/CyScBoostClk.c **** ********************************************************************************
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
   62              		.align	2
   63              	.L2:
   64 002c A1430040 		.word	1073759137
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 3
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 3
 
 
   65 0030 B1430040 		.word	1073759153
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
   75:Generated_Source\PSoC5/CyScBoostClk.c **** 	CyScBoostClk_CLKSTBY &= (uint8)(~CyScBoostClk_CLKSTBY_MASK);
   95              		.loc 1 75 0
   96 0014 064A     		ldr	r2, .L5+4
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 4
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 4
 
 
   97 0016 064B     		ldr	r3, .L5+4
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  100:Generated_Source\PSoC5/CyScBoostClk.c **** void CyScBoostClk_StopBlock(void) 
  101:Generated_Source\PSoC5/CyScBoostClk.c **** {
  127              		.loc 1 101 0
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 5
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 5
 
 
  128              		.cfi_startproc
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  164 002e 03F07F03 		and	r3, r3, #127
  165 0032 DBB2     		uxtb	r3, r3
  166 0034 1370     		strb	r3, [r2]
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 6
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 6
 
 
  120:Generated_Source\PSoC5/CyScBoostClk.c **** 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  205              		.loc 1 135 0
  206 0078 064B     		ldr	r3, .L10+4
  207 007a 0022     		movs	r2, #0
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 7
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 7
 
 
  208 007c 1A70     		strb	r2, [r3]
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  151:Generated_Source\PSoC5/CyScBoostClk.c **** *  state:  0 to disable clock during standby, nonzero to enable.
  152:Generated_Source\PSoC5/CyScBoostClk.c **** *
  153:Generated_Source\PSoC5/CyScBoostClk.c **** * Returns:
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 8
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 8
 
 
  154:Generated_Source\PSoC5/CyScBoostClk.c **** *  None
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  287 0034 BD46     		mov	sp, r7
  288              		.cfi_def_cfa_register 13
  289              		@ sp needed
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 9
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 9
 
 
  290 0036 5DF8047B 		ldr	r7, [sp], #4
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  316              		.cfi_offset 14, -4
  317 0002 84B0     		sub	sp, sp, #16
  318              		.cfi_def_cfa_offset 24
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 10
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 10
 
 
  319 0004 00AF     		add	r7, sp, #0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  360 004a 002B     		cmp	r3, #0
  361 004c 0BD1     		bne	.L21
  209:Generated_Source\PSoC5/CyScBoostClk.c ****             {
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 11
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 11
 
 
  210:Generated_Source\PSoC5/CyScBoostClk.c ****                 /* Moving away from SSS, set the divider first so when SSS is cleared we    */
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  228:Generated_Source\PSoC5/CyScBoostClk.c ****             {
  229:Generated_Source\PSoC5/CyScBoostClk.c ****                 CLK_DIST_LD = 0x00u;
  396              		.loc 1 229 0
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 12
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 12
 
 
  397 0084 314B     		ldr	r3, .L30+12
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  433 00c0 224B     		ldr	r3, .L30+12
  434 00c2 0722     		movs	r2, #7
  435 00c4 1A70     		strb	r2, [r3]
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 13
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 13
 
 
  248:Generated_Source\PSoC5/CyScBoostClk.c **** 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  268:Generated_Source\PSoC5/CyScBoostClk.c ****                 CLK_DIST_LD = (CYCLK_LD_LOAD | ((restart != 0u) ? CYCLK_LD_SYNC_EN : 0x00u));
  470              		.loc 1 268 0
  471 0100 124A     		ldr	r2, .L30+12
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 14
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 14
 
 
  472 0102 7B79     		ldrb	r3, [r7, #5]	@ zero_extendqisi2
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  515              		@ sp needed
  516 013c 80BD     		pop	{r7, pc}
  517              	.L31:
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 15
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 15
 
 
  518 013e 00BF     		.align	2
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  552 0008 9BB2     		uxth	r3, r3
  300:Generated_Source\PSoC5/CyScBoostClk.c **** }
  553              		.loc 1 300 0
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 16
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 16
 
 
  554 000a 1846     		mov	r0, r3
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  332:Generated_Source\PSoC5/CyScBoostClk.c **** void CyScBoostClk_SetModeRegister(uint8 modeBitMask) 
  333:Generated_Source\PSoC5/CyScBoostClk.c **** {
  577              		.loc 1 333 0
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 17
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 17
 
 
  578              		.cfi_startproc
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  337:Generated_Source\PSoC5/CyScBoostClk.c **** 
  338:Generated_Source\PSoC5/CyScBoostClk.c **** /*******************************************************************************
  339:Generated_Source\PSoC5/CyScBoostClk.c **** * Function Name: CyScBoostClk_ClearModeRegister
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 18
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 18
 
 
  340:Generated_Source\PSoC5/CyScBoostClk.c **** ********************************************************************************
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  653 001e 1340     		ands	r3, r3, r2
  654 0020 DBB2     		uxtb	r3, r3
  655 0022 0B70     		strb	r3, [r1]
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 19
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 19
 
 
  370:Generated_Source\PSoC5/CyScBoostClk.c **** }
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  690              		.cfi_def_cfa_register 7
  390:Generated_Source\PSoC5/CyScBoostClk.c ****     return CyScBoostClk_MOD_SRC & (uint8)(CyScBoostClk_MODE_MASK);
  691              		.loc 1 390 0
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 20
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 20
 
 
  692 0004 054B     		ldr	r3, .L44
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  416:Generated_Source\PSoC5/CyScBoostClk.c **** *  None
  417:Generated_Source\PSoC5/CyScBoostClk.c **** *
  418:Generated_Source\PSoC5/CyScBoostClk.c **** *******************************************************************************/
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 21
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 21
 
 
  419:Generated_Source\PSoC5/CyScBoostClk.c **** void CyScBoostClk_SetSourceRegister(uint8 clkSource) 
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  763              		.loc 1 430 0
  764 003c 1E4B     		ldr	r3, .L50
  431:Generated_Source\PSoC5/CyScBoostClk.c ****             (CyScBoostClk_MOD_SRC & (uint8)(~CyScBoostClk_SRC_SEL_MSK)) | clkSource;
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 22
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 22
 
 
  765              		.loc 1 431 0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  808 0084 0C4A     		ldr	r2, .L50
  809 0086 0C4B     		ldr	r3, .L50
  810 0088 1B78     		ldrb	r3, [r3]
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 23
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 23
 
 
  811 008a DBB2     		uxtb	r3, r3
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  450:Generated_Source\PSoC5/CyScBoostClk.c **** /*******************************************************************************
  451:Generated_Source\PSoC5/CyScBoostClk.c **** * Function Name: CyScBoostClk_GetSourceRegister
  452:Generated_Source\PSoC5/CyScBoostClk.c **** ********************************************************************************
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 24
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 24
 
 
  453:Generated_Source\PSoC5/CyScBoostClk.c **** *
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  894              	.LFB11:
  468:Generated_Source\PSoC5/CyScBoostClk.c **** 
  469:Generated_Source\PSoC5/CyScBoostClk.c **** 
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 25
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 25
 
 
  470:Generated_Source\PSoC5/CyScBoostClk.c **** #if defined(CyScBoostClk__CFG3)
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  923              		.cfi_def_cfa_offset 0
  924 001e 7047     		bx	lr
  925              	.L58:
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 26
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 26
 
 
  926              		.align	2
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  959              		.cfi_def_cfa_register 13
  960              		@ sp needed
  961 0014 5DF8047B 		ldr	r7, [sp], #4
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 27
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 27
 
 
  962              		.cfi_restore 7
@@ -1581,21 +1581,21 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  979 0006 00000000 		.4byte	.Ldebug_abbrev0
  980 000a 04       		.byte	0x4
  981 000b 01       		.uleb128 0x1
- 982 000c 3C010000 		.4byte	.LASF40
+ 982 000c 7D010000 		.4byte	.LASF40
  983 0010 01       		.byte	0x1
  984 0011 00000000 		.4byte	.LASF41
- 985 0015 F4020000 		.4byte	.LASF42
+ 985 0015 5B000000 		.4byte	.LASF42
  986 0019 00000000 		.4byte	.Ldebug_ranges0+0
  987 001d 00000000 		.4byte	0
  988 0021 00000000 		.4byte	.Ldebug_line0
  989 0025 02       		.uleb128 0x2
  990 0026 01       		.byte	0x1
  991 0027 06       		.byte	0x6
- 992 0028 11020000 		.4byte	.LASF0
+ 992 0028 52020000 		.4byte	.LASF0
  993 002c 02       		.uleb128 0x2
  994 002d 01       		.byte	0x1
  995 002e 08       		.byte	0x8
- 996 002f F7010000 		.4byte	.LASF1
+ 996 002f 38020000 		.4byte	.LASF1
  997 0033 02       		.uleb128 0x2
  998 0034 02       		.byte	0x2
  999 0035 05       		.byte	0x5
@@ -1603,26 +1603,26 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1001 003a 02       		.uleb128 0x2
  1002 003b 02       		.byte	0x2
  1003 003c 07       		.byte	0x7
- 1004 003d 41020000 		.4byte	.LASF3
+ 1004 003d 82020000 		.4byte	.LASF3
  1005 0041 02       		.uleb128 0x2
  1006 0042 04       		.byte	0x4
  1007 0043 05       		.byte	0x5
- 1008 0044 59020000 		.4byte	.LASF4
+ 1008 0044 9A020000 		.4byte	.LASF4
  1009 0048 02       		.uleb128 0x2
  1010 0049 04       		.byte	0x4
  1011 004a 07       		.byte	0x7
- 1012 004b C0020000 		.4byte	.LASF5
+ 1012 004b 01030000 		.4byte	.LASF5
  1013 004f 02       		.uleb128 0x2
  1014 0050 08       		.byte	0x8
  1015 0051 05       		.byte	0x5
- 1016 0052 2E010000 		.4byte	.LASF6
+ 1016 0052 6F010000 		.4byte	.LASF6
  1017 0056 02       		.uleb128 0x2
  1018 0057 08       		.byte	0x8
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 28
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 28
 
 
  1019 0058 07       		.byte	0x7
- 1020 0059 1D020000 		.4byte	.LASF7
+ 1020 0059 5E020000 		.4byte	.LASF7
  1021 005d 03       		.uleb128 0x3
  1022 005e 04       		.byte	0x4
  1023 005f 05       		.byte	0x5
@@ -1630,31 +1630,31 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1025 0064 02       		.uleb128 0x2
  1026 0065 04       		.byte	0x4
  1027 0066 07       		.byte	0x7
- 1028 0067 34020000 		.4byte	.LASF8
+ 1028 0067 75020000 		.4byte	.LASF8
  1029 006b 04       		.uleb128 0x4
- 1030 006c D9000000 		.4byte	.LASF9
+ 1030 006c 1A010000 		.4byte	.LASF9
  1031 0070 02       		.byte	0x2
  1032 0071 9201     		.2byte	0x192
  1033 0073 2C000000 		.4byte	0x2c
  1034 0077 04       		.uleb128 0x4
- 1035 0078 84000000 		.4byte	.LASF10
+ 1035 0078 C5000000 		.4byte	.LASF10
  1036 007c 02       		.byte	0x2
  1037 007d 9301     		.2byte	0x193
  1038 007f 3A000000 		.4byte	0x3a
  1039 0083 02       		.uleb128 0x2
  1040 0084 04       		.byte	0x4
  1041 0085 04       		.byte	0x4
- 1042 0086 0A010000 		.4byte	.LASF11
+ 1042 0086 4B010000 		.4byte	.LASF11
  1043 008a 02       		.uleb128 0x2
  1044 008b 08       		.byte	0x8
  1045 008c 04       		.byte	0x4
- 1046 008d D2020000 		.4byte	.LASF12
+ 1046 008d 13030000 		.4byte	.LASF12
  1047 0091 02       		.uleb128 0x2
  1048 0092 01       		.byte	0x1
  1049 0093 08       		.byte	0x8
- 1050 0094 54020000 		.4byte	.LASF13
+ 1050 0094 95020000 		.4byte	.LASF13
  1051 0098 04       		.uleb128 0x4
- 1052 0099 BB020000 		.4byte	.LASF14
+ 1052 0099 FC020000 		.4byte	.LASF14
  1053 009d 02       		.byte	0x2
  1054 009e 3C02     		.2byte	0x23c
  1055 00a0 A4000000 		.4byte	0xa4
@@ -1668,7 +1668,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1063 00b5 05       		.uleb128 0x5
  1064 00b6 77000000 		.4byte	0x77
  1065 00ba 06       		.uleb128 0x6
- 1066 00bb E1020000 		.4byte	.LASF16
+ 1066 00bb 22030000 		.4byte	.LASF16
  1067 00bf 01       		.byte	0x1
  1068 00c0 2D       		.byte	0x2d
  1069 00c1 00000000 		.4byte	.LFB0
@@ -1676,9 +1676,9 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1071 00c9 01       		.uleb128 0x1
  1072 00ca 9C       		.byte	0x9c
  1073 00cb 06       		.uleb128 0x6
- 1074 00cc 5B000000 		.4byte	.LASF17
+ 1074 00cc 9C000000 		.4byte	.LASF17
  1075 00d0 01       		.byte	0x1
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 29
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 29
 
 
  1076 00d1 47       		.byte	0x47
@@ -1687,7 +1687,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1079 00da 01       		.uleb128 0x1
  1080 00db 9C       		.byte	0x9c
  1081 00dc 07       		.uleb128 0x7
- 1082 00dd 6D000000 		.4byte	.LASF18
+ 1082 00dd AE000000 		.4byte	.LASF18
  1083 00e1 01       		.byte	0x1
  1084 00e2 64       		.byte	0x64
  1085 00e3 00000000 		.4byte	.LFB2
@@ -1699,7 +1699,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1091 00f2 14000000 		.4byte	.LBB2
  1092 00f6 70000000 		.4byte	.LBE2-.LBB2
  1093 00fa 09       		.uleb128 0x9
- 1094 00fb 74020000 		.4byte	.LASF24
+ 1094 00fb B5020000 		.4byte	.LASF24
  1095 00ff 01       		.byte	0x1
  1096 0100 69       		.byte	0x69
  1097 0101 77000000 		.4byte	0x77
@@ -1709,7 +1709,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1101 0108 00       		.byte	0
  1102 0109 00       		.byte	0
  1103 010a 07       		.uleb128 0x7
- 1104 010b 3D030000 		.4byte	.LASF19
+ 1104 010b 35030000 		.4byte	.LASF19
  1105 010f 01       		.byte	0x1
  1106 0110 9D       		.byte	0x9d
  1107 0111 00000000 		.4byte	.LFB3
@@ -1718,7 +1718,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1110 011a 9C       		.byte	0x9c
  1111 011b 2E010000 		.4byte	0x12e
  1112 011f 0A       		.uleb128 0xa
- 1113 0120 E8010000 		.4byte	.LASF21
+ 1113 0120 29020000 		.4byte	.LASF21
  1114 0124 01       		.byte	0x1
  1115 0125 9D       		.byte	0x9d
  1116 0126 6B000000 		.4byte	0x6b
@@ -1727,7 +1727,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1119 012c 77       		.sleb128 -9
  1120 012d 00       		.byte	0
  1121 012e 0B       		.uleb128 0xb
- 1122 012f 93000000 		.4byte	.LASF20
+ 1122 012f D4000000 		.4byte	.LASF20
  1123 0133 01       		.byte	0x1
  1124 0134 C1       		.byte	0xc1
  1125 0135 00000000 		.4byte	.LFB4
@@ -1736,9 +1736,9 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1128 013e 9C       		.byte	0x9c
  1129 013f 8A010000 		.4byte	0x18a
  1130 0143 0A       		.uleb128 0xa
- 1131 0144 DF000000 		.4byte	.LASF22
+ 1131 0144 20010000 		.4byte	.LASF22
  1132 0148 01       		.byte	0x1
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 30
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 30
 
 
  1133 0149 C1       		.byte	0xc1
@@ -1747,7 +1747,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1136 014f 91       		.byte	0x91
  1137 0150 6E       		.sleb128 -18
  1138 0151 0A       		.uleb128 0xa
- 1139 0152 8B000000 		.4byte	.LASF23
+ 1139 0152 CC000000 		.4byte	.LASF23
  1140 0156 01       		.byte	0x1
  1141 0157 C1       		.byte	0xc1
  1142 0158 6B000000 		.4byte	0x6b
@@ -1755,7 +1755,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1144 015d 91       		.byte	0x91
  1145 015e 6D       		.sleb128 -19
  1146 015f 09       		.uleb128 0x9
- 1147 0160 D9020000 		.4byte	.LASF25
+ 1147 0160 1A030000 		.4byte	.LASF25
  1148 0164 01       		.byte	0x1
  1149 0165 C4       		.byte	0xc4
  1150 0166 6B000000 		.4byte	0x6b
@@ -1763,7 +1763,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1152 016b 91       		.byte	0x91
  1153 016c 73       		.sleb128 -13
  1154 016d 09       		.uleb128 0x9
- 1155 016e 6C020000 		.4byte	.LASF26
+ 1155 016e AD020000 		.4byte	.LASF26
  1156 0172 01       		.byte	0x1
  1157 0173 C6       		.byte	0xc6
  1158 0174 6B000000 		.4byte	0x6b
@@ -1771,7 +1771,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1160 0179 91       		.byte	0x91
  1161 017a 77       		.sleb128 -9
  1162 017b 09       		.uleb128 0x9
- 1163 017c 74020000 		.4byte	.LASF24
+ 1163 017c B5020000 		.4byte	.LASF24
  1164 0180 01       		.byte	0x1
  1165 0181 C7       		.byte	0xc7
  1166 0182 77000000 		.4byte	0x77
@@ -1780,7 +1780,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1169 0188 74       		.sleb128 -12
  1170 0189 00       		.byte	0
  1171 018a 0C       		.uleb128 0xc
- 1172 018b EA000000 		.4byte	.LASF30
+ 1172 018b 2B010000 		.4byte	.LASF30
  1173 018f 01       		.byte	0x1
  1174 0190 2901     		.2byte	0x129
  1175 0192 77000000 		.4byte	0x77
@@ -1798,10 +1798,10 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1187 01b1 9C       		.byte	0x9c
  1188 01b2 C6010000 		.4byte	0x1c6
  1189 01b6 0E       		.uleb128 0xe
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 31
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 31
 
 
- 1190 01b7 05020000 		.4byte	.LASF28
+ 1190 01b7 46020000 		.4byte	.LASF28
  1191 01bb 01       		.byte	0x1
  1192 01bc 4C01     		.2byte	0x14c
  1193 01be 6B000000 		.4byte	0x6b
@@ -1810,7 +1810,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1196 01c4 77       		.sleb128 -9
  1197 01c5 00       		.byte	0
  1198 01c6 0D       		.uleb128 0xd
- 1199 01c7 57030000 		.4byte	.LASF29
+ 1199 01c7 4F030000 		.4byte	.LASF29
  1200 01cb 01       		.byte	0x1
  1201 01cc 6F01     		.2byte	0x16f
  1202 01ce 00000000 		.4byte	.LFB7
@@ -1819,7 +1819,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1205 01d7 9C       		.byte	0x9c
  1206 01d8 EC010000 		.4byte	0x1ec
  1207 01dc 0E       		.uleb128 0xe
- 1208 01dd 05020000 		.4byte	.LASF28
+ 1208 01dd 46020000 		.4byte	.LASF28
  1209 01e1 01       		.byte	0x1
  1210 01e2 6F01     		.2byte	0x16f
  1211 01e4 6B000000 		.4byte	0x6b
@@ -1828,7 +1828,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1214 01ea 77       		.sleb128 -9
  1215 01eb 00       		.byte	0
  1216 01ec 0C       		.uleb128 0xc
- 1217 01ed 7F020000 		.4byte	.LASF31
+ 1217 01ed C0020000 		.4byte	.LASF31
  1218 01f1 01       		.byte	0x1
  1219 01f2 8401     		.2byte	0x184
  1220 01f4 6B000000 		.4byte	0x6b
@@ -1837,7 +1837,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1223 0200 01       		.uleb128 0x1
  1224 0201 9C       		.byte	0x9c
  1225 0202 0F       		.uleb128 0xf
- 1226 0203 B3000000 		.4byte	.LASF32
+ 1226 0203 F4000000 		.4byte	.LASF32
  1227 0207 01       		.byte	0x1
  1228 0208 A301     		.2byte	0x1a3
  1229 020a 00000000 		.4byte	.LFB9
@@ -1846,7 +1846,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1232 0213 9C       		.byte	0x9c
  1233 0214 46020000 		.4byte	0x246
  1234 0218 0E       		.uleb128 0xe
- 1235 0219 62020000 		.4byte	.LASF33
+ 1235 0219 A3020000 		.4byte	.LASF33
  1236 021d 01       		.byte	0x1
  1237 021e A301     		.2byte	0x1a3
  1238 0220 6B000000 		.4byte	0x6b
@@ -1858,14 +1858,14 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1244 022c 01       		.byte	0x1
  1245 022d A501     		.2byte	0x1a5
  1246 022f 77000000 		.4byte	0x77
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 32
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 32
 
 
  1247 0233 02       		.uleb128 0x2
  1248 0234 91       		.byte	0x91
  1249 0235 76       		.sleb128 -10
  1250 0236 10       		.uleb128 0x10
- 1251 0237 D2000000 		.4byte	.LASF35
+ 1251 0237 13010000 		.4byte	.LASF35
  1252 023b 01       		.byte	0x1
  1253 023c A601     		.2byte	0x1a6
  1254 023e 6B000000 		.4byte	0x6b
@@ -1874,7 +1874,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1257 0244 75       		.sleb128 -11
  1258 0245 00       		.byte	0
  1259 0246 0C       		.uleb128 0xc
- 1260 0247 9C020000 		.4byte	.LASF36
+ 1260 0247 DD020000 		.4byte	.LASF36
  1261 024b 01       		.byte	0x1
  1262 024c D001     		.2byte	0x1d0
  1263 024e 6B000000 		.4byte	0x6b
@@ -1883,7 +1883,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1266 025a 01       		.uleb128 0x1
  1267 025b 9C       		.byte	0x9c
  1268 025c 0D       		.uleb128 0xd
- 1269 025d CA010000 		.4byte	.LASF37
+ 1269 025d 0B020000 		.4byte	.LASF37
  1270 0261 01       		.byte	0x1
  1271 0262 EC01     		.2byte	0x1ec
  1272 0264 00000000 		.4byte	.LFB11
@@ -1892,7 +1892,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1275 026d 9C       		.byte	0x9c
  1276 026e 82020000 		.4byte	0x282
  1277 0272 0E       		.uleb128 0xe
- 1278 0273 EE010000 		.4byte	.LASF38
+ 1278 0273 2F020000 		.4byte	.LASF38
  1279 0277 01       		.byte	0x1
  1280 0278 EC01     		.2byte	0x1ec
  1281 027a 6B000000 		.4byte	0x6b
@@ -1901,7 +1901,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1284 0280 77       		.sleb128 -9
  1285 0281 00       		.byte	0
  1286 0282 0C       		.uleb128 0xc
- 1287 0283 10010000 		.4byte	.LASF39
+ 1287 0283 51010000 		.4byte	.LASF39
  1288 0287 01       		.byte	0x1
  1289 0288 0102     		.2byte	0x201
  1290 028a 6B000000 		.4byte	0x6b
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1301 0003 25       		.uleb128 0x25
  1302 0004 0E       		.uleb128 0xe
  1303 0005 13       		.uleb128 0x13
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 33
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 33
 
 
  1304 0006 0B       		.uleb128 0xb
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1358 003c 00       		.byte	0
  1359 003d 06       		.uleb128 0x6
  1360 003e 2E       		.uleb128 0x2e
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 34
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 34
 
 
  1361 003f 00       		.byte	0
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1415 0077 00       		.byte	0
  1416 0078 09       		.uleb128 0x9
  1417 0079 34       		.uleb128 0x34
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 35
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 35
 
 
  1418 007a 00       		.byte	0
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1472 00b1 2E       		.uleb128 0x2e
  1473 00b2 00       		.byte	0
  1474 00b3 3F       		.uleb128 0x3f
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 36
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 36
 
 
  1475 00b4 19       		.uleb128 0x19
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1529 00ec 05       		.uleb128 0x5
  1530 00ed 49       		.uleb128 0x49
  1531 00ee 13       		.uleb128 0x13
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 37
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 37
 
 
  1532 00ef 02       		.uleb128 0x2
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1586 0014 34000000 		.4byte	.LFE0-.LFB0
  1587 0018 00000000 		.4byte	.LFB1
  1588 001c 34000000 		.4byte	.LFE1-.LFB1
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 38
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 38
 
 
  1589 0020 00000000 		.4byte	.LFB2
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1643              		.section	.debug_line,"",%progbits
  1644              	.Ldebug_line0:
  1645 0000 C7010000 		.section	.debug_str,"MS",%progbits,1
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 39
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 39
 
 
  1645      02004900 
@@ -2307,204 +2307,204 @@ ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 1
  1655 0051 73686F72 		.ascii	"short int\000"
  1655      7420696E 
  1655      7400
- 1656              	.LASF17:
- 1657 005b 43795363 		.ascii	"CyScBoostClk_Stop\000"
- 1657      426F6F73 
- 1657      74436C6B 
- 1657      5F53746F 
- 1657      7000
- 1658              	.LASF18:
- 1659 006d 43795363 		.ascii	"CyScBoostClk_StopBlock\000"
- 1659      426F6F73 
- 1659      74436C6B 
- 1659      5F53746F 
- 1659      70426C6F 
- 1660              	.LASF10:
- 1661 0084 75696E74 		.ascii	"uint16\000"
- 1661      313600
- 1662              	.LASF23:
- 1663 008b 72657374 		.ascii	"restart\000"
- 1663      61727400 
- 1664              	.LASF20:
- 1665 0093 43795363 		.ascii	"CyScBoostClk_SetDividerRegister\000"
- 1665      426F6F73 
- 1665      74436C6B 
- 1665      5F536574 
- 1665      44697669 
- 1666              	.LASF32:
- 1667 00b3 43795363 		.ascii	"CyScBoostClk_SetSourceRegister\000"
- 1667      426F6F73 
- 1667      74436C6B 
- 1667      5F536574 
- 1667      536F7572 
- 1668              	.LASF35:
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 40
+ 1656              	.LASF42:
+ 1657 005b 433A5C55 		.ascii	"C:\\Users\\labadmin\\Documents\\GitHub\\CY8CKITDAC\\"
+ 1657      73657273 
+ 1657      5C6C6162 
+ 1657      61646D69 
+ 1657      6E5C446F 
+ 1658 0089 55534246 		.ascii	"USBFS_UART01.cydsn\000"
+ 1658      535F5541 
+ 1658      52543031 
+ 1658      2E637964 
+ 1658      736E00
+ 1659              	.LASF17:
+ 1660 009c 43795363 		.ascii	"CyScBoostClk_Stop\000"
+ 1660      426F6F73 
+ 1660      74436C6B 
+ 1660      5F53746F 
+ 1660      7000
+ 1661              	.LASF18:
+ 1662 00ae 43795363 		.ascii	"CyScBoostClk_StopBlock\000"
+ 1662      426F6F73 
+ 1662      74436C6B 
+ 1662      5F53746F 
+ 1662      70426C6F 
+ 1663              	.LASF10:
+ 1664 00c5 75696E74 		.ascii	"uint16\000"
+ 1664      313600
+ 1665              	.LASF23:
+ 1666 00cc 72657374 		.ascii	"restart\000"
+ 1666      61727400 
+ 1667              	.LASF20:
+ 1668 00d4 43795363 		.ascii	"CyScBoostClk_SetDividerRegister\000"
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 40
 
 
- 1669 00d2 6F6C6453 		.ascii	"oldSrc\000"
- 1669      726300
- 1670              	.LASF9:
- 1671 00d9 75696E74 		.ascii	"uint8\000"
- 1671      3800
- 1672              	.LASF22:
- 1673 00df 636C6B44 		.ascii	"clkDivider\000"
- 1673      69766964 
- 1673      657200
- 1674              	.LASF30:
- 1675 00ea 43795363 		.ascii	"CyScBoostClk_GetDividerRegister\000"
- 1675      426F6F73 
- 1675      74436C6B 
- 1675      5F476574 
- 1675      44697669 
- 1676              	.LASF11:
- 1677 010a 666C6F61 		.ascii	"float\000"
- 1677      7400
- 1678              	.LASF39:
- 1679 0110 43795363 		.ascii	"CyScBoostClk_GetPhaseRegister\000"
- 1679      426F6F73 
- 1679      74436C6B 
- 1679      5F476574 
- 1679      50686173 
- 1680              	.LASF6:
- 1681 012e 6C6F6E67 		.ascii	"long long int\000"
- 1681      206C6F6E 
- 1681      6720696E 
- 1681      7400
- 1682              	.LASF40:
- 1683 013c 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 1683      4320342E 
- 1683      392E3320 
- 1683      32303135 
- 1683      30333033 
- 1684 016f 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m3 -mthumb -g -O"
- 1684      20726576 
- 1684      6973696F 
- 1684      6E203232 
- 1684      31323230 
- 1685 01a2 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 1685      66756E63 
- 1685      74696F6E 
- 1685      2D736563 
- 1685      74696F6E 
- 1686              	.LASF37:
- 1687 01ca 43795363 		.ascii	"CyScBoostClk_SetPhaseRegister\000"
- 1687      426F6F73 
- 1687      74436C6B 
- 1687      5F536574 
- 1687      50686173 
- 1688              	.LASF21:
- 1689 01e8 73746174 		.ascii	"state\000"
- 1689      6500
- 1690              	.LASF38:
- 1691 01ee 636C6B50 		.ascii	"clkPhase\000"
- 1691      68617365 
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 41
+ 1668      426F6F73 
+ 1668      74436C6B 
+ 1668      5F536574 
+ 1668      44697669 
+ 1669              	.LASF32:
+ 1670 00f4 43795363 		.ascii	"CyScBoostClk_SetSourceRegister\000"
+ 1670      426F6F73 
+ 1670      74436C6B 
+ 1670      5F536574 
+ 1670      536F7572 
+ 1671              	.LASF35:
+ 1672 0113 6F6C6453 		.ascii	"oldSrc\000"
+ 1672      726300
+ 1673              	.LASF9:
+ 1674 011a 75696E74 		.ascii	"uint8\000"
+ 1674      3800
+ 1675              	.LASF22:
+ 1676 0120 636C6B44 		.ascii	"clkDivider\000"
+ 1676      69766964 
+ 1676      657200
+ 1677              	.LASF30:
+ 1678 012b 43795363 		.ascii	"CyScBoostClk_GetDividerRegister\000"
+ 1678      426F6F73 
+ 1678      74436C6B 
+ 1678      5F476574 
+ 1678      44697669 
+ 1679              	.LASF11:
+ 1680 014b 666C6F61 		.ascii	"float\000"
+ 1680      7400
+ 1681              	.LASF39:
+ 1682 0151 43795363 		.ascii	"CyScBoostClk_GetPhaseRegister\000"
+ 1682      426F6F73 
+ 1682      74436C6B 
+ 1682      5F476574 
+ 1682      50686173 
+ 1683              	.LASF6:
+ 1684 016f 6C6F6E67 		.ascii	"long long int\000"
+ 1684      206C6F6E 
+ 1684      6720696E 
+ 1684      7400
+ 1685              	.LASF40:
+ 1686 017d 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 1686      4320342E 
+ 1686      392E3320 
+ 1686      32303135 
+ 1686      30333033 
+ 1687 01b0 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m3 -mthumb -g -O"
+ 1687      20726576 
+ 1687      6973696F 
+ 1687      6E203232 
+ 1687      31323230 
+ 1688 01e3 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 1688      66756E63 
+ 1688      74696F6E 
+ 1688      2D736563 
+ 1688      74696F6E 
+ 1689              	.LASF37:
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 41
 
 
- 1691      00
- 1692              	.LASF1:
- 1693 01f7 756E7369 		.ascii	"unsigned char\000"
- 1693      676E6564 
- 1693      20636861 
- 1693      7200
- 1694              	.LASF28:
- 1695 0205 6D6F6465 		.ascii	"modeBitMask\000"
- 1695      4269744D 
- 1695      61736B00 
- 1696              	.LASF0:
- 1697 0211 7369676E 		.ascii	"signed char\000"
- 1697      65642063 
- 1697      68617200 
- 1698              	.LASF7:
- 1699 021d 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1699      206C6F6E 
- 1699      6720756E 
- 1699      7369676E 
- 1699      65642069 
- 1700              	.LASF8:
- 1701 0234 756E7369 		.ascii	"unsigned int\000"
- 1701      676E6564 
- 1701      20696E74 
- 1701      00
- 1702              	.LASF3:
- 1703 0241 73686F72 		.ascii	"short unsigned int\000"
- 1703      7420756E 
- 1703      7369676E 
- 1703      65642069 
- 1703      6E7400
- 1704              	.LASF13:
- 1705 0254 63686172 		.ascii	"char\000"
- 1705      00
- 1706              	.LASF4:
- 1707 0259 6C6F6E67 		.ascii	"long int\000"
- 1707      20696E74 
- 1707      00
- 1708              	.LASF33:
- 1709 0262 636C6B53 		.ascii	"clkSource\000"
- 1709      6F757263 
- 1709      6500
- 1710              	.LASF26:
- 1711 026c 63757272 		.ascii	"currSrc\000"
- 1711      53726300 
- 1712              	.LASF24:
- 1713 0274 6F6C6444 		.ascii	"oldDivider\000"
- 1713      69766964 
- 1713      657200
- 1714              	.LASF31:
- 1715 027f 43795363 		.ascii	"CyScBoostClk_GetModeRegister\000"
- 1715      426F6F73 
- 1715      74436C6B 
- 1715      5F476574 
- 1715      4D6F6465 
- 1716              	.LASF36:
- 1717 029c 43795363 		.ascii	"CyScBoostClk_GetSourceRegister\000"
-ARM GAS  C:\Users\labadmin\AppData\Local\Temp\cc27JgeT.s 			page 42
+ 1690 020b 43795363 		.ascii	"CyScBoostClk_SetPhaseRegister\000"
+ 1690      426F6F73 
+ 1690      74436C6B 
+ 1690      5F536574 
+ 1690      50686173 
+ 1691              	.LASF21:
+ 1692 0229 73746174 		.ascii	"state\000"
+ 1692      6500
+ 1693              	.LASF38:
+ 1694 022f 636C6B50 		.ascii	"clkPhase\000"
+ 1694      68617365 
+ 1694      00
+ 1695              	.LASF1:
+ 1696 0238 756E7369 		.ascii	"unsigned char\000"
+ 1696      676E6564 
+ 1696      20636861 
+ 1696      7200
+ 1697              	.LASF28:
+ 1698 0246 6D6F6465 		.ascii	"modeBitMask\000"
+ 1698      4269744D 
+ 1698      61736B00 
+ 1699              	.LASF0:
+ 1700 0252 7369676E 		.ascii	"signed char\000"
+ 1700      65642063 
+ 1700      68617200 
+ 1701              	.LASF7:
+ 1702 025e 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1702      206C6F6E 
+ 1702      6720756E 
+ 1702      7369676E 
+ 1702      65642069 
+ 1703              	.LASF8:
+ 1704 0275 756E7369 		.ascii	"unsigned int\000"
+ 1704      676E6564 
+ 1704      20696E74 
+ 1704      00
+ 1705              	.LASF3:
+ 1706 0282 73686F72 		.ascii	"short unsigned int\000"
+ 1706      7420756E 
+ 1706      7369676E 
+ 1706      65642069 
+ 1706      6E7400
+ 1707              	.LASF13:
+ 1708 0295 63686172 		.ascii	"char\000"
+ 1708      00
+ 1709              	.LASF4:
+ 1710 029a 6C6F6E67 		.ascii	"long int\000"
+ 1710      20696E74 
+ 1710      00
+ 1711              	.LASF33:
+ 1712 02a3 636C6B53 		.ascii	"clkSource\000"
+ 1712      6F757263 
+ 1712      6500
+ 1713              	.LASF26:
+ 1714 02ad 63757272 		.ascii	"currSrc\000"
+ 1714      53726300 
+ 1715              	.LASF24:
+ARM GAS  C:\Users\labadmin\AppData\Local\Temp\ccUoIqsW.s 			page 42
 
 
- 1717      426F6F73 
- 1717      74436C6B 
- 1717      5F476574 
- 1717      536F7572 
- 1718              	.LASF14:
- 1719 02bb 72656738 		.ascii	"reg8\000"
- 1719      00
- 1720              	.LASF5:
- 1721 02c0 6C6F6E67 		.ascii	"long unsigned int\000"
- 1721      20756E73 
- 1721      69676E65 
- 1721      6420696E 
- 1721      7400
- 1722              	.LASF12:
- 1723 02d2 646F7562 		.ascii	"double\000"
- 1723      6C6500
- 1724              	.LASF25:
- 1725 02d9 656E6162 		.ascii	"enabled\000"
- 1725      6C656400 
- 1726              	.LASF16:
- 1727 02e1 43795363 		.ascii	"CyScBoostClk_Start\000"
- 1727      426F6F73 
- 1727      74436C6B 
- 1727      5F537461 
- 1727      727400
- 1728              	.LASF42:
- 1729 02f4 433A5C55 		.ascii	"C:\\Users\\labadmin\\Documents\\PSoC Creator\\USBFS"
- 1729      73657273 
- 1729      5C6C6162 
- 1729      61646D69 
- 1729      6E5C446F 
- 1730 0322 5F554152 		.ascii	"_UART01\\USBFS_UART01.cydsn\000"
- 1730      5430315C 
- 1730      55534246 
- 1730      535F5541 
- 1730      52543031 
+ 1716 02b5 6F6C6444 		.ascii	"oldDivider\000"
+ 1716      69766964 
+ 1716      657200
+ 1717              	.LASF31:
+ 1718 02c0 43795363 		.ascii	"CyScBoostClk_GetModeRegister\000"
+ 1718      426F6F73 
+ 1718      74436C6B 
+ 1718      5F476574 
+ 1718      4D6F6465 
+ 1719              	.LASF36:
+ 1720 02dd 43795363 		.ascii	"CyScBoostClk_GetSourceRegister\000"
+ 1720      426F6F73 
+ 1720      74436C6B 
+ 1720      5F476574 
+ 1720      536F7572 
+ 1721              	.LASF14:
+ 1722 02fc 72656738 		.ascii	"reg8\000"
+ 1722      00
+ 1723              	.LASF5:
+ 1724 0301 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1724      20756E73 
+ 1724      69676E65 
+ 1724      6420696E 
+ 1724      7400
+ 1725              	.LASF12:
+ 1726 0313 646F7562 		.ascii	"double\000"
+ 1726      6C6500
+ 1727              	.LASF25:
+ 1728 031a 656E6162 		.ascii	"enabled\000"
+ 1728      6C656400 
+ 1729              	.LASF16:
+ 1730 0322 43795363 		.ascii	"CyScBoostClk_Start\000"
+ 1730      426F6F73 
+ 1730      74436C6B 
+ 1730      5F537461 
+ 1730      727400
  1731              	.LASF19:
- 1732 033d 43795363 		.ascii	"CyScBoostClk_StandbyPower\000"
+ 1732 0335 43795363 		.ascii	"CyScBoostClk_StandbyPower\000"
  1732      426F6F73 
  1732      74436C6B 
  1732      5F537461 
  1732      6E646279 
  1733              	.LASF29:
- 1734 0357 43795363 		.ascii	"CyScBoostClk_ClearModeRegister\000"
+ 1734 034f 43795363 		.ascii	"CyScBoostClk_ClearModeRegister\000"
  1734      426F6F73 
  1734      74436C6B 
  1734      5F436C65 
